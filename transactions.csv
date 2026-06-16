@@ -1,0 +1,501 @@
+order_id,product_id,product_name,category,customer_name,city,phone_number,country_code,payment_mode,amount,quantity,order_date
+ORD0001,PRD011,Resistance Bands,Sports,Sneha Gupta,Mumbai,8906402157,IN,Wallet,2894.29,2,2024-03-12
+ORD0002,PRD012,Vitamin C Tablets,Health,Gaurav Malhotra,Jaipur,9czz11xyc2,IN,UPI,5985.83,1,2024-01-16
+ORD0003,PRD013,Denim Jacket,Apparel,Meera Bhatt,Bangalore,9279182318,IN,Wallet,4340.62,3,21/06/2024
+ORD0004,PRD002,Wireless Earbuds,Electronics,Rohit Sharma,Kolkata,6186618211,IN,UPI,3717.0,3,2024-11-05
+ORD0005,PRD012,Vitamin C Tablets,Health,Amit Kumar,Jaipur,9562265906,IN,UPI,9735.53,4,2024-02-10
+ORD0006,PRD011,Resistance Bands,Sports,Aisha Khan,Pune,9320303242,IN,Net Banking,2083.43,1,2024-01-24
+ORD0007,PRD005,Running Shoes,Footwear,Rohit Sharma,Hyderabad,6698594025,IN,UPI,3924.24,4,2024-11-21
+ORD0008,PRD006,Stainless Steel Bottle,Kitchen,Neha Agarwal,Hyderabad,8294113287,IN,Wallet,2815.38,1,2024-11-07
+ORD0009,PRD012,Vitamin C Tablets,Health,Pooja Reddy,Bangalore,9620021413,IN,Cash,3917.66,5,2024-04-22
+ORD0010,PRD013,Denim Jacket,Apparel,Vivek Pandey,Mumbai,6906164396,IN,Credit Card,8252.67,3,2024-07-24
+ORD0011,PRD015,Non-stick Pan,Kitchen,Manish Tiwari,Pune,7970753705,IN,Credit Card,6622.3,4,2025-03-28
+ORD0012,PRD003,Yoga Mat,Sports,Arjun Nair,Bangalore,7840109255,IN,Credit Card,7499.89,5,2024-05-14
+ORD0013,PRD015,Non-stick Pan,Kitchen,Manish Tiwari,Kolkata,9246059658,IN,Debit Card,2348.34,2,2024-09-17
+ORD0014,PRD001,Cotton Kurti,Apparel,Riya Chopra,Delhi,6502509,IN,Credit Card,6347.97,4,2024-11-01
+ORD0015,PRD010,Smart Watch,Electronics,Amit Kumar,Jaipur,8927923735,IN,Debit Card,9715.57,1,2024-12-14
+ORD0016,PRD015,Non-stick Pan,Kitchen,Shreya Das,Chennai,,IN,Wallet,3532.72,3,2024-08-10
+ORD0017,PRD001,Cotton Kurti,Apparel,Sunita Desai,Chennai,7281810600,IN,Net Banking,7666.23,5,2024-02-24
+ORD0018,PRD014,Bluetooth Speaker,Electronics,Suresh Pillai,Jaipur,,IN,Net Banking,2148.33,3,2025-01-25
+ORD0019,PRD013,Denim Jacket,Apparel,Sana Mirza,Jaipur,9x32ccza12,IN,UPI,6068.66,4,2024-01-10
+ORD0020,PRD013,Denim Jacket,Apparel,Shreya Das,Bangalore,9747071386,IN,Credit Card,6664.56,5,2024-03-25
+ORD0021,PRD010,Smart Watch,Electronics,Kavya Menon,Hyderabad,8884873529,IN,Net Banking,7600.6,2,2024-12-31
+ORD0022,PRD011,Resistance Bands,Sports,Neha Agarwal,Ahmedabad,452896,IN,Net Banking,4623.56,2,2024-04-25
+ORD0023,PRD010,Smart Watch,Electronics,Shreya Das,Hyderabad,6983297492,IN,Net Banking,2357.13,1,2024-12-28
+ORD0024,PRD002,Wireless Earbuds,Electronics,Gaurav Malhotra,Mumbai,6920140090,IN,Debit Card,893.4,2,2024-05-22
+ORD0025,PRD009,Silk Saree,Apparel,Vikram Singh,Surat,6405126228,IN,Net Banking,4831.18,4,2025-02-17
+ORD0026,PRD002,Wireless Earbuds,Electronics,Deepa Nambiar,Kolkata,8892078691,IN,Debit Card,4350.07,4,2025-03-18
+ORD0027,PRD011,Resistance Bands,Sports,Suresh Pillai,Delhi,7067970820,IN,UPI,4144.69,3,2025-02-13
+ORD0028,PRD004,Face Serum,Beauty,Karan Mehta,Jaipur,9755888575,IN,Cash,1572.79,2,2024-05-22
+ORD0029,PRD015,Non-stick Pan,Kitchen,Rohit Sharma,Ahmedabad,1664689,IN,Net Banking,1158.51,5,2025-03-04
+ORD0030,PRD015,Non-stick Pan,Kitchen,Vivek Pandey,Hyderabad,9875962612,IN,Credit Card,4181.86,4,2024-04-19
+ORD0031,PRD001,Cotton Kurti,Apparel,Ananya Iyer,Kolkata,7225136114,IN,UPI,9855.03,3,2025-02-05
+ORD0032,PRD007,Laptop Bag,Accessories,Rajesh Kulkarni,Jaipur,6251183830,IN,Wallet,7239.4,2,2024-04-07
+ORD0033,PRD010,Smart Watch,Electronics,Sunita Desai,Jaipur,8159725924,IN,UPI,7529.16,1,2024-01-26
+ORD0034,PRD015,Non-stick Pan,Kitchen,Riya Chopra,Jaipur,6294296873,IN,Credit Card,756.42,5,2024-02-11
+ORD0035,PRD010,Smart Watch,Electronics,Rohit Sharma,Hyderabad,6170689150,IN,Cash,1373.89,5,2024-05-06
+ORD0036,PRD010,Smart Watch,Electronics,Rohit Sharma,Kolkata,6877286584,IN,Wallet,5918.99,5,2024-06-10
+ORD0037,PRD011,Resistance Bands,Sports,Rajesh Kulkarni,Pune,7963764597,IN,Credit Card,2802.02,2,2024-12-09
+ORD0038,PRD006,Stainless Steel Bottle,Kitchen,Sana Mirza,Delhi,3676135,IN,UPI,4690.2,5,2024-02-21
+ORD0039,PRD009,Silk Saree,Apparel,Arjun Nair,Bangalore,7881988384,IN,Debit Card,8831.47,2,2024-07-08
+ORD0040,PRD014,Bluetooth Speaker,Electronics,Shreya Das,Chennai,8381998678,IN,Net Banking,9840.76,5,2024-01-05
+ORD0041,PRD005,Running Shoes,Footwear,Sana Mirza,Delhi,7169726681,IN,Credit Card,2790.77,1,2025-01-15
+ORD0042,PRD005,Running Shoes,Footwear,Aisha Khan,Hyderabad,9888390599,IN,Wallet,3559.23,3,2024-09-15
+ORD0043,PRD015,Non-stick Pan,Kitchen,Riya Chopra,Mumbai,2294789,IN,UPI,6414.99,3,2024-01-23
+ORD0044,PRD011,Resistance Bands,Sports,Arjun Nair,Bangalore,1362382,IN,Wallet,4528.99,4,2024-10-14
+ORD0045,PRD015,Non-stick Pan,Kitchen,Rajesh Kulkarni,Bangalore,7845919895,IN,Net Banking,552.08,3,2024-10-25
+ORD0046,PRD003,Yoga Mat,Sports,Priya Patel,Chennai,7071722055,IN,Debit Card,9009.02,1,07/12/2024
+ORD0047,PRD002,Wireless Earbuds,Electronics,Neha Agarwal,Jaipur,9435488617,IN,Cash,9742.6,2,2024-05-01
+ORD0048,PRD013,Denim Jacket,Apparel,Ananya Iyer,Kolkata,9445573666,IN,UPI,1956.73,3,2025-02-04
+ORD0049,PRD011,Resistance Bands,Sports,Riya Chopra,Hyderabad,9687629943,IN,Debit Card,1759.14,1,2024-07-14
+ORD0050,PRD008,Protein Powder,Health,Pooja Reddy,Hyderabad,3340180,IN,Cash,3625.65,2,2024-04-24
+ORD0051,PRD007,Laptop Bag,Accessories,Rahul Verma,Chennai,7716605598,IN,UPI,9674.51,3,2024-06-28
+ORD0052,,Resistance Bands,Sports,Aditya Saxena,Jaipur,6766942939,IN,Debit Card,9403.52,1,2025-03-25
+ORD0053,PRD010,Smart Watch,Electronics,Arjun Nair,Mumbai,7874297457,IN,UPI,6045.4,3,2025-01-08
+ORD0054,PRD010,Smart Watch,Electronics,Nikhil Rao,Delhi,7415831,IN,Cash,9014.15,2,2024-05-10
+ORD0055,PRD001,Cotton Kurti,Apparel,Nikhil Rao,Jaipur,8852879124,IN,Wallet,7249.41,2,2024-07-05
+ORD0056,PRD015,Non-stick Pan,Kitchen,Rahul Verma,Surat,8178074590,IN,Debit Card,6700.2,1,2025-01-03
+ORD0057,PRD005,Running Shoes,Footwear,Deepa Nambiar,Kolkata,9x313zcyac,IN,Debit Card,4142.52,3,2024-10-10
+ORD0058,PRD007,Laptop Bag,Accessories,Meera Bhatt,Surat,6917840538,IN,Net Banking,6615.12,4,2024-08-14
+ORD0059,PRD009,Silk Saree,Apparel,Ritika Bose,Bangalore,7439622619,IN,Wallet,1030.0,5,2024-12-05
+ORD0060,PRD002,Wireless Earbuds,Electronics,Aditya Saxena,Hyderabad,4207776,IN,Wallet,3241.11,2,2024-03-16
+ORD0061,PRD008,Protein Powder,Health,Aisha Khan,Delhi,7649174966,IN,Cash,4260.52,5,2024-04-09
+ORD0062,PRD008,Protein Powder,Health,Siddharth Roy,Hyderabad,9803044105,IN,Credit Card,6628.37,1,2025-01-19
+ORD0063,PRD002,Wireless Earbuds,Electronics,Vivek Pandey,Kolkata,4280853,IN,Credit Card,1922.69,5,2024-08-25
+ORD0064,PRD015,Non-stick Pan,Kitchen,Riya Chopra,Delhi,8400565848,IN,Cash,1505.72,4,2024-12-07
+ORD0065,PRD010,Smart Watch,Electronics,Rahul Verma,Ahmedabad,8353092123,IN,Net Banking,8186.06,5,2024-08-06
+ORD0066,PRD008,Protein Powder,Health,Gaurav Malhotra,Bangalore,9607183629,IN,Wallet,8641.65,4,2024-05-12
+ORD0067,PRD011,Resistance Bands,Sports,Arjun Nair,Jaipur,4893722,IN,Cash,6341.13,3,2024-08-13
+ORD0068,PRD004,Face Serum,Beauty,Arjun Nair,Pune,,IN,Debit Card,8950.66,1,2024-03-11
+ORD0069,PRD007,Laptop Bag,Accessories,Rajesh Kulkarni,Bangalore,8001129658,IN,Wallet,2295.74,4,2024-07-27
+ORD0070,PRD007,Laptop Bag,Accessories,Priya Patel,Hyderabad,9758481,IN,Cash,4015.87,5,2024-12-22
+ORD0071,PRD007,Laptop Bag,Accessories,Ritika Bose,Mumbai,9589427315,IN,Debit Card,3125.4,4,2025-03-12
+ORD0072,PRD007,Laptop Bag,Accessories,Shreya Das,Jaipur,8085816511,IN,Net Banking,8997.55,4,2024-04-22
+ORD0073,PRD001,Cotton Kurti,Apparel,Siddharth Roy,Pune,,IN,Wallet,6854.59,4,2025-01-05
+ORD0074,PRD008,Protein Powder,Health,Sana Mirza,Bangalore,6116402431,IN,Net Banking,5433.41,4,2024-10-30
+ORD0075,PRD002,Wireless Earbuds,Electronics,Suresh Pillai,Kolkata,7405969000,IN,Credit Card,8694.14,2,2024-01-26
+ORD0076,PRD004,Face Serum,Beauty,Amit Kumar,Pune,9573087602,IN,Debit Card,7659.05,4,2024-05-22
+ORD0077,,Laptop Bag,Accessories,Arjun Nair,Delhi,7503068227,IN,Cash,388.96,5,2024-01-27
+ORD0078,PRD004,Face Serum,Beauty,Suresh Pillai,Delhi,6087531510,IN,Wallet,593.53,1,14/11/2024
+ORD0079,PRD003,Yoga Mat,Sports,Pooja Reddy,Bangalore,7100558303,IN,Cash,6759.7,5,2024-04-21
+ORD0080,PRD013,Denim Jacket,Apparel,Neha Agarwal,Bangalore,7335901990,IN,Net Banking,6150.03,1,2025-02-02
+ORD0081,PRD002,Wireless Earbuds,Electronics,Manish Tiwari,Mumbai,6851819913,IN,Debit Card,5841.81,4,2024-07-22
+ORD0082,PRD002,Wireless Earbuds,Electronics,Manish Tiwari,Hyderabad,9459716271,IN,UPI,7031.49,3,2025-03-11
+ORD0083,PRD002,Wireless Earbuds,Electronics,Meera Bhatt,Surat,8173085046,IN,UPI,3601.6,4,2024-12-04
+ORD0084,PRD011,Resistance Bands,Sports,Rahul Verma,Mumbai,8729817240,IN,Cash,8257.84,1,2024-08-09
+ORD0085,PRD015,Non-stick Pan,Kitchen,Aditya Saxena,Ahmedabad,8793693337,IN,Wallet,1698.31,2,2025-01-10
+ORD0086,PRD005,Running Shoes,Footwear,Aisha Khan,Jaipur,7054393708,IN,Cash,4754.76,5,2024-05-17
+ORD0087,PRD014,Bluetooth Speaker,Electronics,Sana Mirza,Delhi,8621354709,IN,Debit Card,8838.99,2,2025-01-19
+ORD0088,PRD011,Resistance Bands,Sports,Siddharth Roy,Pune,7523961606,IN,UPI,5043.2,3,2024-04-03
+ORD0089,PRD013,Denim Jacket,Apparel,Arjun Nair,Pune,3305394,IN,Debit Card,8826.14,3,2024-10-11
+ORD0090,PRD002,Wireless Earbuds,Electronics,Pooja Reddy,Kolkata,9057339843,IN,Cash,5639.73,2,2024-12-19
+ORD0091,PRD008,Protein Powder,Health,Amit Kumar,Mumbai,8851686578,IN,,3082.51,4,2024-12-20
+ORD0092,PRD010,Smart Watch,Electronics,Neha Agarwal,Ahmedabad,7511014697,IN,Net Banking,5402.03,4,2025-01-16
+ORD0093,PRD012,Vitamin C Tablets,Health,Amit Kumar,Chennai,6513483708,IN,Debit Card,2662.76,1,15/01/2025
+ORD0094,PRD009,Silk Saree,Apparel,Vivek Pandey,Bangalore,9265068044,IN,Credit Card,2319.57,4,2024-05-21
+ORD0095,PRD009,Silk Saree,Apparel,Aisha Khan,Chennai,7298229437,IN,UPI,8358.76,3,2024-04-26
+ORD0096,PRD001,Cotton Kurti,Apparel,Rajesh Kulkarni,Jaipur,6542366274,IN,Credit Card,2887.25,1,2024-10-10
+ORD0097,PRD011,Resistance Bands,Sports,Riya Chopra,Ahmedabad,7891799103,IN,UPI,8751.65,5,2024-05-25
+ORD0098,PRD006,Stainless Steel Bottle,Kitchen,Ananya Iyer,Mumbai,7721025347,IN,Debit Card,9421.42,4,2024-02-28
+ORD0099,PRD008,Protein Powder,Health,Rohit Sharma,Surat,7304963614,IN,Wallet,6926.22,2,2024-03-17
+ORD0100,PRD002,Wireless Earbuds,Electronics,Pooja Reddy,Delhi,6969318858,IN,Net Banking,7690.55,5,2024-11-01
+ORD0101,PRD013,Denim Jacket,Apparel,Nikhil Rao,Kolkata,7841810119,IN,Cash,9102.34,3,2025-03-16
+ORD0102,PRD005,Running Shoes,Footwear,Manish Tiwari,Surat,6906346324,IN,UPI,6173.38,1,15/05/2024
+ORD0103,PRD011,Resistance Bands,Sports,Rohit Sharma,Bangalore,7658197,IN,Credit Card,1902.37,1,2024-03-21
+ORD0104,PRD012,Vitamin C Tablets,Health,Aisha Khan,Ahmedabad,9691982799,IN,Debit Card,518.87,3,2024-12-27
+ORD0105,PRD008,Protein Powder,Health,Rohit Sharma,Hyderabad,6849627058,IN,Debit Card,7919.71,5,2024-12-04
+ORD0106,PRD007,Laptop Bag,Accessories,Sneha Gupta,Jaipur,,IN,Credit Card,6545.82,3,2025-02-27
+ORD0107,PRD001,Cotton Kurti,Apparel,Ananya Iyer,Chennai,8013042435,IN,Net Banking,7538.79,5,2024-05-27
+ORD0108,PRD012,Vitamin C Tablets,Health,Divya Joshi,Kolkata,9axcca32z3,IN,Debit Card,5103.63,4,2024-08-12
+ORD0109,PRD013,Denim Jacket,Apparel,Deepa Nambiar,Chennai,7899360801,IN,Net Banking,593.27,2,2024-08-28
+ORD0110,PRD015,Non-stick Pan,Kitchen,Arjun Nair,Bangalore,7753841726,IN,Net Banking,4470.67,4,2024-02-16
+ORD0111,PRD006,Stainless Steel Bottle,Kitchen,Rahul Verma,Delhi,7719929315,IN,Credit Card,3431.08,4,2024-05-27
+ORD0112,PRD014,Bluetooth Speaker,Electronics,Vivek Pandey,Jaipur,9318068090,IN,UPI,4656.29,3,2024-05-09
+ORD0113,PRD007,Laptop Bag,Accessories,Riya Chopra,Jaipur,6805660882,IN,UPI,6644.07,5,2024-08-24
+ORD0114,PRD009,Silk Saree,Apparel,Neha Agarwal,Surat,6562697526,IN,Cash,6328.01,1,2024-04-14
+ORD0115,PRD015,Non-stick Pan,Kitchen,Divya Joshi,Ahmedabad,7027774780,IN,Wallet,4949.18,1,2024-11-18
+ORD0116,PRD012,Vitamin C Tablets,Health,Ananya Iyer,Chennai,9613809882,IN,Net Banking,333.01,4,28/02/2024
+ORD0117,PRD008,Protein Powder,Health,Sneha Gupta,Bangalore,7784517419,IN,Cash,9339.0,3,2024-09-17
+ORD0118,PRD014,Bluetooth Speaker,Electronics,Ritika Bose,Ahmedabad,8574307168,IN,Credit Card,4675.51,2,17/09/2024
+ORD0119,PRD012,Vitamin C Tablets,Health,Gaurav Malhotra,Bangalore,8180716723,IN,UPI,2906.22,4,2024-06-23
+ORD0120,,Running Shoes,Footwear,Aditya Saxena,Mumbai,8102989254,IN,Debit Card,7314.3,5,2024-10-23
+ORD0121,PRD014,Bluetooth Speaker,Electronics,Vikram Singh,Ahmedabad,7620104855,IN,Net Banking,4945.55,3,2024-10-09
+ORD0122,PRD008,Protein Powder,Health,Sana Mirza,Pune,9676547724,IN,Credit Card,9810.59,2,2024-10-19
+ORD0123,,Denim Jacket,Apparel,Kavya Menon,Mumbai,9403304832,IN,Debit Card,7497.11,4,2024-07-16
+ORD0124,PRD014,Bluetooth Speaker,Electronics,Suresh Pillai,Bangalore,7425906387,IN,Cash,9654.28,2,2024-09-14
+ORD0125,PRD014,Bluetooth Speaker,Electronics,Sneha Gupta,Ahmedabad,7760844750,IN,UPI,5353.32,4,2024-01-08
+ORD0126,PRD014,Bluetooth Speaker,Electronics,Suresh Pillai,Bangalore,7707177877,IN,UPI,4800.01,3,2024-06-22
+ORD0127,PRD011,Resistance Bands,Sports,Rohit Sharma,Pune,9811520099,IN,Wallet,8620.55,4,2024-06-11
+ORD0128,PRD013,Denim Jacket,Apparel,Ritika Bose,Jaipur,7234283419,IN,UPI,6250.1,2,2024-11-19
+ORD0129,PRD004,Face Serum,Beauty,Sunita Desai,Delhi,,IN,Cash,9786.71,1,2024-08-15
+ORD0130,PRD005,Running Shoes,Footwear,Gaurav Malhotra,Mumbai,7849785671,IN,UPI,3377.87,1,2024-05-30
+ORD0131,PRD003,Yoga Mat,Sports,Pooja Reddy,Jaipur,,IN,Cash,5745.1,2,2024-03-28
+ORD0132,PRD010,Smart Watch,Electronics,Riya Chopra,Kolkata,,IN,Net Banking,6893.72,4,2024-10-25
+ORD0133,PRD008,Protein Powder,Health,Suresh Pillai,Chennai,7235368585,IN,Cash,2701.2,1,2025-02-15
+ORD0134,PRD011,Resistance Bands,Sports,Shreya Das,Bangalore,7822393017,IN,UPI,4527.95,3,2024-10-27
+ORD0135,PRD012,Vitamin C Tablets,Health,Arjun Nair,Ahmedabad,7018790736,IN,Debit Card,2151.33,4,2025-03-12
+ORD0136,,Laptop Bag,Accessories,Manish Tiwari,Pune,8827075539,IN,Net Banking,3098.55,3,2024-01-12
+ORD0137,PRD007,Laptop Bag,Accessories,Arjun Nair,Mumbai,9577015837,IN,Net Banking,8676.66,1,2024-11-06
+ORD0138,PRD015,Non-stick Pan,Kitchen,Gaurav Malhotra,Chennai,8666707262,IN,Credit Card,6148.24,3,2024-04-22
+ORD0139,PRD005,Running Shoes,Footwear,Deepa Nambiar,Bangalore,6143299564,IN,Wallet,1151.21,1,2024-06-07
+ORD0140,PRD010,Smart Watch,Electronics,Neha Agarwal,Bangalore,6862407093,IN,UPI,9113.35,3,2025-01-17
+ORD0141,PRD003,Yoga Mat,Sports,Meera Bhatt,Jaipur,,IN,Debit Card,5401.35,3,2025-03-01
+ORD0142,PRD015,Non-stick Pan,Kitchen,Aditya Saxena,Ahmedabad,93b321332x,IN,Debit Card,7515.28,3,2025-02-15
+ORD0143,PRD013,Denim Jacket,Apparel,Siddharth Roy,Mumbai,8887681752,IN,Debit Card,5457.41,4,2024-07-07
+ORD0144,PRD005,Running Shoes,Footwear,Manish Tiwari,Kolkata,6107480046,IN,,9413.86,1,2024-12-11
+ORD0145,PRD010,Smart Watch,Electronics,Gaurav Malhotra,Jaipur,7889116,IN,Debit Card,9168.51,2,2024-11-27
+ORD0146,PRD015,Non-stick Pan,Kitchen,Rajesh Kulkarni,Chennai,7307235909,IN,Wallet,4200.3,2,2024-01-24
+ORD0147,PRD008,Protein Powder,Health,Sneha Gupta,Delhi,8879716355,IN,Credit Card,8894.14,2,2024-07-17
+ORD0148,PRD012,Vitamin C Tablets,Health,Rajesh Kulkarni,Jaipur,6425294682,IN,Cash,5954.94,2,2025-03-29
+ORD0149,PRD014,Bluetooth Speaker,Electronics,Ritika Bose,Surat,6933166190,IN,Cash,9401.72,3,2024-01-17
+ORD0150,PRD008,Protein Powder,Health,Amit Kumar,Hyderabad,8769510048,IN,Debit Card,1172.68,3,2024-10-05
+ORD0151,PRD006,Stainless Steel Bottle,Kitchen,Priya Patel,Kolkata,6393734347,IN,Debit Card,2059.12,1,2025-03-10
+ORD0152,,Resistance Bands,Sports,Karan Mehta,Surat,9380045208,IN,UPI,694.67,3,2024-05-04
+ORD0153,PRD010,Smart Watch,Electronics,Karan Mehta,Delhi,7411152518,IN,Net Banking,2229.14,2,2025-02-20
+ORD0154,PRD013,Denim Jacket,Apparel,Vikram Singh,Surat,9429590757,IN,UPI,2916.29,2,2024-03-07
+ORD0155,PRD003,Yoga Mat,Sports,Sneha Gupta,Mumbai,6748381742,IN,Credit Card,344.63,2,2024-10-28
+ORD0156,PRD005,Running Shoes,Footwear,Priya Patel,Bangalore,7620810,IN,Wallet,4324.41,1,2025-01-16
+ORD0157,PRD013,Denim Jacket,Apparel,Neha Agarwal,Jaipur,6186251406,IN,Net Banking,1267.73,5,2024-04-23
+ORD0158,,Vitamin C Tablets,Health,Meera Bhatt,Jaipur,9639119547,IN,Debit Card,4687.82,1,2024-02-01
+ORD0159,PRD007,Laptop Bag,Accessories,Kavya Menon,Delhi,7383459732,IN,Cash,7180.53,4,2024-02-07
+ORD0160,PRD010,Smart Watch,Electronics,Vikram Singh,Delhi,7635971911,IN,Credit Card,2894.16,5,2024-10-07
+ORD0161,PRD010,Smart Watch,Electronics,Nikhil Rao,Chennai,6491404673,IN,Cash,5153.4,4,2024-02-20
+ORD0162,PRD014,Bluetooth Speaker,Electronics,Suresh Pillai,Jaipur,7777315761,IN,Wallet,8680.82,4,2024-08-19
+ORD0163,PRD006,Stainless Steel Bottle,Kitchen,Aditya Saxena,Ahmedabad,8856616537,IN,Cash,4275.7,1,2024-06-09
+ORD0164,PRD005,Running Shoes,Footwear,Neha Agarwal,Bangalore,6400420225,IN,Wallet,9244.25,1,2024-02-16
+ORD0165,PRD007,Laptop Bag,Accessories,Sneha Gupta,Pune,8877685081,IN,Credit Card,5651.43,5,2024-10-14
+ORD0166,PRD002,Wireless Earbuds,Electronics,Kavya Menon,Pune,6220959215,IN,Wallet,9422.07,4,2025-03-20
+ORD0167,PRD005,Running Shoes,Footwear,Aisha Khan,Chennai,,IN,Debit Card,1214.29,5,2024-04-18
+ORD0168,PRD008,Protein Powder,Health,Pooja Reddy,Delhi,8465740756,IN,Debit Card,8483.66,3,2024-02-28
+ORD0169,PRD004,Face Serum,Beauty,Meera Bhatt,Kolkata,8391179068,IN,Net Banking,9749.56,5,2024-11-10
+ORD0170,PRD001,Cotton Kurti,Apparel,Aisha Khan,Chennai,6779130936,IN,UPI,1967.08,3,2024-06-22
+ORD0171,PRD014,Bluetooth Speaker,Electronics,Vikram Singh,Surat,6131671246,IN,Wallet,4126.69,2,2025-01-14
+ORD0172,PRD002,Wireless Earbuds,Electronics,Sunita Desai,Jaipur,,IN,Credit Card,3885.71,4,2024-06-23
+ORD0173,PRD005,Running Shoes,Footwear,Sunita Desai,Pune,,IN,Net Banking,6041.99,1,2024-03-20
+ORD0174,PRD010,Smart Watch,Electronics,Priya Patel,Delhi,7778905619,IN,Debit Card,4541.51,4,2024-09-05
+ORD0175,PRD005,Running Shoes,Footwear,Karan Mehta,Jaipur,8547492192,IN,UPI,3581.69,1,2024-05-25
+ORD0176,PRD008,Protein Powder,Health,Nikhil Rao,Chennai,5156977,IN,UPI,2360.08,5,2024-01-29
+ORD0177,PRD004,Face Serum,Beauty,Vivek Pandey,Bangalore,7849649210,IN,Debit Card,3035.58,1,2024-01-04
+ORD0178,PRD003,Yoga Mat,Sports,Vikram Singh,Kolkata,9462603446,IN,Net Banking,7094.98,5,2024-10-13
+ORD0179,PRD006,Stainless Steel Bottle,Kitchen,Rohit Sharma,Kolkata,9702734323,IN,Wallet,613.56,1,2024-08-23
+ORD0180,PRD006,Stainless Steel Bottle,Kitchen,Manish Tiwari,Kolkata,9ac2z23a2c,IN,Net Banking,4162.34,4,2024-05-28
+ORD0181,PRD010,Smart Watch,Electronics,Siddharth Roy,Jaipur,7430518844,IN,UPI,4077.51,3,2025-01-16
+ORD0182,PRD013,Denim Jacket,Apparel,Ananya Iyer,Delhi,9333874861,IN,Net Banking,6404.6,5,27/06/2024
+ORD0183,PRD006,Stainless Steel Bottle,Kitchen,Sunita Desai,Bangalore,,IN,Credit Card,1206.48,3,2024-04-11
+ORD0184,PRD003,Yoga Mat,Sports,Vivek Pandey,Delhi,9263647494,IN,Credit Card,9521.66,4,2024-08-25
+ORD0185,PRD010,Smart Watch,Electronics,Amit Kumar,Surat,8693878240,IN,Wallet,6424.92,5,2024-06-14
+ORD0186,PRD006,Stainless Steel Bottle,Kitchen,Vikram Singh,Ahmedabad,6241257421,IN,UPI,4794.43,3,2025-02-11
+ORD0187,PRD006,Stainless Steel Bottle,Kitchen,Nikhil Rao,Delhi,7232986477,IN,Debit Card,4724.08,1,2024-01-30
+ORD0188,PRD002,Wireless Earbuds,Electronics,Suresh Pillai,Delhi,9400831547,IN,Net Banking,6020.98,4,2024-08-24
+ORD0189,PRD012,Vitamin C Tablets,Health,Gaurav Malhotra,Mumbai,,IN,Cash,9107.69,5,2024-11-29
+ORD0190,PRD010,Smart Watch,Electronics,Ritika Bose,Jaipur,9596507613,IN,Credit Card,9584.68,4,2024-02-22
+ORD0191,PRD006,Stainless Steel Bottle,Kitchen,Rajesh Kulkarni,Delhi,7887302225,IN,Net Banking,6531.05,1,2024-05-06
+ORD0192,PRD009,Silk Saree,Apparel,Nikhil Rao,Surat,7453275827,IN,Credit Card,3765.2,3,2024-07-17
+ORD0193,PRD011,Resistance Bands,Sports,Aisha Khan,Mumbai,91c1z32xzb,IN,Wallet,6542.59,1,2024-06-17
+ORD0194,PRD006,Stainless Steel Bottle,Kitchen,Divya Joshi,Kolkata,8763782498,IN,Credit Card,6030.4,1,2024-06-07
+ORD0195,PRD013,Denim Jacket,Apparel,Rahul Verma,Bangalore,7818516501,IN,Wallet,7086.74,5,2024-02-17
+ORD0196,PRD009,Silk Saree,Apparel,Neha Agarwal,Mumbai,8088517710,IN,Debit Card,3225.89,2,2024-06-23
+ORD0197,PRD004,Face Serum,Beauty,Pooja Reddy,Bangalore,9586812331,IN,Credit Card,955.22,1,2024-09-16
+ORD0198,PRD012,Vitamin C Tablets,Health,Gaurav Malhotra,Jaipur,6662510569,IN,UPI,6685.91,5,2024-03-08
+ORD0199,PRD003,Yoga Mat,Sports,Ananya Iyer,Surat,9090596936,IN,Credit Card,7266.59,1,2024-07-29
+ORD0200,PRD004,Face Serum,Beauty,Amit Kumar,Surat,7329154472,IN,Debit Card,7572.43,4,2024-04-29
+ORD0201,PRD013,Denim Jacket,Apparel,Meera Bhatt,Ahmedabad,7210200352,IN,Credit Card,3803.84,5,2024-08-13
+ORD0202,PRD013,Denim Jacket,Apparel,Siddharth Roy,Jaipur,8597009738,IN,Net Banking,4301.88,2,11/03/2024
+ORD0203,PRD014,Bluetooth Speaker,Electronics,Arjun Nair,Mumbai,9055443931,IN,Wallet,4908.79,3,2024-10-10
+ORD0204,PRD014,Bluetooth Speaker,Electronics,Nikhil Rao,Delhi,8204833223,IN,Debit Card,1020.98,2,2024-05-19
+ORD0205,PRD003,Yoga Mat,Sports,Aditya Saxena,Kolkata,7501456453,IN,UPI,9473.85,2,2025-02-22
+ORD0206,PRD015,Non-stick Pan,Kitchen,Aarav Shah,Kolkata,6350492684,IN,UPI,4084.25,3,2024-04-30
+ORD0207,PRD006,Stainless Steel Bottle,Kitchen,Pooja Reddy,Mumbai,,IN,Debit Card,9321.09,3,2025-02-09
+ORD0208,PRD001,Cotton Kurti,Apparel,Divya Joshi,Ahmedabad,9890628295,IN,Wallet,8343.88,4,2024-08-17
+ORD0209,PRD002,Wireless Earbuds,Electronics,Aarav Shah,Chennai,7817865363,IN,Credit Card,8381.64,5,2025-01-07
+ORD0210,PRD002,Wireless Earbuds,Electronics,Vivek Pandey,Chennai,9409770698,IN,Credit Card,3150.28,1,2024-05-02
+ORD0211,PRD010,Smart Watch,Electronics,Amit Kumar,Delhi,8714225802,IN,UPI,8398.54,4,2024-11-01
+ORD0212,PRD009,Silk Saree,Apparel,Manish Tiwari,Hyderabad,7033215551,IN,Wallet,1606.05,4,2024-01-01
+ORD0213,PRD010,Smart Watch,Electronics,Kavya Menon,Bangalore,8925812,IN,Wallet,6747.51,5,2024-07-03
+ORD0214,PRD009,Silk Saree,Apparel,Nikhil Rao,Jaipur,7603321558,IN,Net Banking,398.28,4,2024-01-23
+ORD0215,PRD005,Running Shoes,Footwear,Sunita Desai,Mumbai,8698343112,IN,Debit Card,7926.5,3,2024-05-03
+ORD0216,PRD002,Wireless Earbuds,Electronics,Vivek Pandey,Surat,7454049402,IN,Wallet,7614.45,2,2024-01-23
+ORD0217,PRD014,Bluetooth Speaker,Electronics,Suresh Pillai,Bangalore,,IN,Wallet,4752.3,4,2024-11-19
+ORD0218,PRD003,Yoga Mat,Sports,Rohit Sharma,Ahmedabad,6179984654,IN,UPI,3074.74,1,10/06/2024
+ORD0219,PRD015,Non-stick Pan,Kitchen,Divya Joshi,Jaipur,9235359859,IN,,9892.4,5,2024-08-30
+ORD0220,PRD011,Resistance Bands,Sports,Karan Mehta,Chennai,7173456409,IN,Debit Card,8647.96,1,2025-03-19
+ORD0221,PRD002,Wireless Earbuds,Electronics,Meera Bhatt,Pune,6802373824,IN,Cash,8915.97,4,2024-07-16
+ORD0222,PRD008,Protein Powder,Health,Rajesh Kulkarni,Ahmedabad,9122790501,IN,Debit Card,9257.24,5,2024-05-16
+ORD0223,PRD007,Laptop Bag,Accessories,Rohit Sharma,Kolkata,6440654676,IN,Net Banking,9950.96,2,2024-10-06
+ORD0224,PRD002,Wireless Earbuds,Electronics,Rahul Verma,Chennai,7509882812,IN,Debit Card,4568.97,4,2024-03-26
+ORD0225,,Protein Powder,Health,Priya Patel,Pune,6246351029,IN,Net Banking,9980.88,3,2024-11-23
+ORD0226,PRD002,Wireless Earbuds,Electronics,Deepa Nambiar,Kolkata,,IN,Debit Card,5227.24,2,2024-01-16
+ORD0227,PRD010,Smart Watch,Electronics,Deepa Nambiar,Ahmedabad,7555424924,IN,UPI,1436.05,2,2025-02-02
+ORD0228,PRD007,Laptop Bag,Accessories,Manish Tiwari,Mumbai,9277422858,IN,Net Banking,1702.69,4,2024-07-08
+ORD0229,PRD002,Wireless Earbuds,Electronics,Manish Tiwari,Bangalore,6487258103,IN,Net Banking,3795.11,3,2024-11-28
+ORD0230,PRD001,Cotton Kurti,Apparel,Sunita Desai,Bangalore,7117936038,IN,Cash,5272.9,5,2024-03-01
+ORD0231,PRD012,Vitamin C Tablets,Health,Amit Kumar,Hyderabad,92y3ya12cx,IN,Net Banking,2997.65,4,2024-04-12
+ORD0232,PRD002,Wireless Earbuds,Electronics,Shreya Das,Jaipur,9007418808,IN,Debit Card,8934.05,2,2024-12-30
+ORD0233,PRD011,Resistance Bands,Sports,Ananya Iyer,Pune,92ayx2yzac,IN,Net Banking,2396.57,2,2025-02-09
+ORD0234,PRD012,Vitamin C Tablets,Health,Sunita Desai,Ahmedabad,6538274418,IN,Net Banking,4224.79,4,2025-02-25
+ORD0235,PRD006,Stainless Steel Bottle,Kitchen,Suresh Pillai,Delhi,92yz1by22y,IN,Cash,4764.17,5,2024-06-25
+ORD0236,PRD005,Running Shoes,Footwear,Ananya Iyer,Bangalore,8228649039,IN,Debit Card,9359.43,2,2024-06-26
+ORD0237,PRD015,Non-stick Pan,Kitchen,Divya Joshi,Delhi,9cyyb3bz1z,IN,Debit Card,2122.76,5,2024-05-20
+ORD0238,PRD014,Bluetooth Speaker,Electronics,Sana Mirza,Surat,9776615,IN,UPI,8286.32,1,2024-02-11
+ORD0239,PRD005,Running Shoes,Footwear,Suresh Pillai,Hyderabad,8343237444,IN,Net Banking,4281.55,1,2024-09-11
+ORD0240,PRD005,Running Shoes,Footwear,Suresh Pillai,Chennai,8957572769,IN,Cash,2598.8,4,2024-06-01
+ORD0241,PRD001,Cotton Kurti,Apparel,Ananya Iyer,Ahmedabad,7342531599,IN,Cash,4944.66,2,2024-06-23
+ORD0242,PRD014,Bluetooth Speaker,Electronics,Rajesh Kulkarni,Pune,9xzcyccacx,IN,Wallet,9881.63,3,2024-07-23
+ORD0243,PRD010,Smart Watch,Electronics,Kavya Menon,Hyderabad,9277581356,IN,Credit Card,8171.08,5,2025-01-04
+ORD0244,PRD003,Yoga Mat,Sports,Ritika Bose,Jaipur,6697509,IN,Cash,5086.85,3,2024-09-11
+ORD0245,PRD009,Silk Saree,Apparel,Amit Kumar,Hyderabad,8566323583,IN,Credit Card,5915.77,1,2024-01-26
+ORD0246,PRD015,Non-stick Pan,Kitchen,Aditya Saxena,Ahmedabad,9cxxaazxcx,IN,Debit Card,5458.57,1,2024-08-08
+ORD0247,PRD008,Protein Powder,Health,Vivek Pandey,Jaipur,6552605034,IN,Debit Card,8287.05,5,2024-12-14
+ORD0248,PRD002,Wireless Earbuds,Electronics,Siddharth Roy,Pune,,IN,Debit Card,5665.75,3,2025-01-21
+ORD0249,PRD010,Smart Watch,Electronics,Nikhil Rao,Kolkata,9453007060,IN,Net Banking,593.5,1,2024-03-11
+ORD0250,PRD008,Protein Powder,Health,Nikhil Rao,Ahmedabad,8633107545,IN,Credit Card,6140.35,5,2024-03-12
+ORD0251,PRD006,Stainless Steel Bottle,Kitchen,Ananya Iyer,Kolkata,9557475817,IN,Net Banking,7444.33,3,2024-10-30
+ORD0252,PRD009,Silk Saree,Apparel,Shreya Das,Ahmedabad,5657278,IN,Wallet,5715.66,4,2025-02-21
+ORD0253,PRD011,Resistance Bands,Sports,Sneha Gupta,Kolkata,8815741776,IN,Net Banking,3214.24,1,2024-11-01
+ORD0254,PRD013,Denim Jacket,Apparel,Vivek Pandey,Surat,8251560728,IN,Net Banking,2428.92,1,2024-10-25
+ORD0255,PRD011,Resistance Bands,Sports,Sunita Desai,Surat,9008714405,IN,Cash,1647.2,2,2024-01-17
+ORD0256,PRD002,Wireless Earbuds,Electronics,Karan Mehta,Mumbai,7762557538,IN,Cash,3273.19,2,2024-07-30
+ORD0257,PRD009,Silk Saree,Apparel,Vivek Pandey,Surat,9bczycb3xx,IN,Cash,8752.61,1,2024-12-27
+ORD0258,PRD013,Denim Jacket,Apparel,Riya Chopra,Chennai,6965796553,IN,Net Banking,4943.96,2,2024-05-22
+ORD0259,PRD005,Running Shoes,Footwear,Vivek Pandey,Chennai,8407275865,IN,Wallet,2230.32,4,2024-06-11
+ORD0260,PRD015,Non-stick Pan,Kitchen,Sana Mirza,Chennai,7694503971,IN,Debit Card,1393.37,5,2024-07-13
+ORD0261,PRD014,Bluetooth Speaker,Electronics,Neha Agarwal,Bangalore,8817378520,IN,Debit Card,611.25,1,2024-06-26
+ORD0262,PRD005,Running Shoes,Footwear,Sunita Desai,Ahmedabad,8990032969,IN,Credit Card,2179.27,5,2024-05-18
+ORD0263,PRD005,Running Shoes,Footwear,Vikram Singh,Delhi,9009397,IN,Net Banking,7459.73,2,2024-05-04
+ORD0264,PRD004,Face Serum,Beauty,Suresh Pillai,Hyderabad,8925697292,IN,UPI,1180.94,3,2025-01-02
+ORD0265,PRD013,Denim Jacket,Apparel,Vikram Singh,Mumbai,9782352003,IN,Net Banking,9782.52,2,2024-07-27
+ORD0266,PRD015,Non-stick Pan,Kitchen,Ritika Bose,Ahmedabad,6254101373,IN,Wallet,2153.67,3,2024-06-13
+ORD0267,PRD015,Non-stick Pan,Kitchen,Vivek Pandey,Delhi,6160194739,IN,Wallet,5825.51,5,2025-01-13
+ORD0268,,Non-stick Pan,Kitchen,Sana Mirza,Bangalore,7705078697,IN,Cash,8845.0,2,2024-01-19
+ORD0269,PRD013,Denim Jacket,Apparel,Ritika Bose,Bangalore,5106190,IN,Wallet,9627.89,3,2025-03-24
+ORD0270,PRD010,Smart Watch,Electronics,Aisha Khan,Delhi,6576384364,IN,Debit Card,2987.7,5,2024-09-25
+ORD0271,PRD014,Bluetooth Speaker,Electronics,Nikhil Rao,Ahmedabad,,IN,Debit Card,2088.55,1,2024-06-18
+ORD0272,PRD008,Protein Powder,Health,Suresh Pillai,Chennai,8896530837,IN,Wallet,2023.75,3,2025-02-08
+ORD0273,PRD013,Denim Jacket,Apparel,Karan Mehta,Bangalore,7408434291,IN,Net Banking,8589.24,4,2025-02-27
+ORD0274,PRD002,Wireless Earbuds,Electronics,Siddharth Roy,Delhi,6029335155,IN,Credit Card,9819.51,4,2024-06-14
+ORD0275,PRD005,Running Shoes,Footwear,Siddharth Roy,Hyderabad,8460489491,IN,Cash,7585.82,3,2024-06-03
+ORD0276,PRD001,Cotton Kurti,Apparel,Arjun Nair,Pune,7741251076,IN,Wallet,2514.77,1,2024-08-26
+ORD0277,PRD011,Resistance Bands,Sports,Nikhil Rao,Chennai,6941150163,IN,Wallet,1349.67,3,2024-07-07
+ORD0278,PRD003,Yoga Mat,Sports,Ritika Bose,Bangalore,8358944233,IN,Cash,7526.8,5,2024-07-10
+ORD0279,PRD015,Non-stick Pan,Kitchen,Ritika Bose,Jaipur,9750086519,IN,Wallet,8289.91,2,2024-12-14
+ORD0280,PRD013,Denim Jacket,Apparel,Rohit Sharma,Jaipur,6481933114,IN,Cash,5375.1,3,2024-02-09
+ORD0281,PRD001,Cotton Kurti,Apparel,Aditya Saxena,Jaipur,,IN,Net Banking,2180.14,5,2024-03-17
+ORD0282,PRD014,Bluetooth Speaker,Electronics,Nikhil Rao,Ahmedabad,9y2yyyay21,IN,UPI,6865.89,5,2024-09-07
+ORD0283,PRD007,Laptop Bag,Accessories,Arjun Nair,Mumbai,9008130163,IN,Wallet,2334.43,1,2024-01-24
+ORD0284,PRD002,Wireless Earbuds,Electronics,Shreya Das,Mumbai,6773013901,IN,UPI,9863.15,4,2024-01-17
+ORD0285,PRD013,Denim Jacket,Apparel,Vikram Singh,Kolkata,9894535958,IN,Debit Card,9928.99,4,2024-08-17
+ORD0286,PRD007,Laptop Bag,Accessories,Siddharth Roy,Delhi,7493660313,IN,Wallet,9647.61,5,2024-03-09
+ORD0287,PRD002,Wireless Earbuds,Electronics,Ananya Iyer,Jaipur,481435,IN,Cash,5381.66,2,2025-03-03
+ORD0288,PRD005,Running Shoes,Footwear,Amit Kumar,Jaipur,6666241244,IN,Cash,5411.95,2,2024-05-06
+ORD0289,PRD005,Running Shoes,Footwear,Karan Mehta,Delhi,9795705770,IN,UPI,8131.89,4,2024-11-10
+ORD0290,PRD015,Non-stick Pan,Kitchen,Aarav Shah,Hyderabad,8886319543,IN,Credit Card,858.45,5,2024-01-18
+ORD0291,PRD012,Vitamin C Tablets,Health,Riya Chopra,Mumbai,6933164135,IN,,7456.3,4,2024-08-12
+ORD0292,PRD013,Denim Jacket,Apparel,Riya Chopra,Mumbai,9141843676,IN,Credit Card,5137.18,3,2024-04-29
+ORD0293,PRD010,Smart Watch,Electronics,Rahul Verma,Surat,6615298850,IN,Net Banking,7769.87,3,2024-05-01
+ORD0294,PRD011,Resistance Bands,Sports,Nikhil Rao,Hyderabad,9778342396,IN,Cash,3143.91,1,2024-10-12
+ORD0295,PRD012,Vitamin C Tablets,Health,Sana Mirza,Bangalore,5878321,IN,Wallet,6850.75,5,2024-09-10
+ORD0296,PRD011,Resistance Bands,Sports,Deepa Nambiar,Kolkata,,IN,Net Banking,3322.6,4,2024-07-28
+ORD0297,PRD007,Laptop Bag,Accessories,Ananya Iyer,Jaipur,6619986018,IN,Cash,2560.49,2,2024-06-02
+ORD0298,PRD013,Denim Jacket,Apparel,Amit Kumar,Mumbai,7668247132,IN,Net Banking,4243.24,4,2024-10-12
+ORD0299,PRD004,Face Serum,Beauty,Arjun Nair,Hyderabad,8300537106,IN,Debit Card,6536.72,4,2025-03-09
+ORD0300,PRD012,Vitamin C Tablets,Health,Aditya Saxena,Hyderabad,1321118,IN,UPI,2829.92,5,2024-11-04
+ORD0301,PRD004,Face Serum,Beauty,Meera Bhatt,Surat,9895676325,IN,Wallet,6779.22,2,19/06/2024
+ORD0302,,Running Shoes,Footwear,Sana Mirza,Mumbai,8056949493,IN,Credit Card,9383.17,1,2025-01-17
+ORD0303,PRD015,Non-stick Pan,Kitchen,Pooja Reddy,Surat,7215730003,IN,Wallet,2203.23,2,2024-10-09
+ORD0304,PRD007,Laptop Bag,Accessories,Amit Kumar,Jaipur,8135789708,IN,Wallet,3719.74,3,2024-07-03
+ORD0305,PRD008,Protein Powder,Health,Sneha Gupta,Ahmedabad,8416025300,IN,Debit Card,9159.44,3,2024-06-09
+ORD0306,PRD014,Bluetooth Speaker,Electronics,Pooja Reddy,Bangalore,7267841227,IN,UPI,2754.59,5,2024-10-23
+ORD0307,PRD003,Yoga Mat,Sports,Karan Mehta,Pune,8941393812,IN,Credit Card,3921.43,2,2024-09-12
+ORD0308,PRD006,Stainless Steel Bottle,Kitchen,Arjun Nair,Ahmedabad,,IN,Wallet,6487.61,4,2024-08-23
+ORD0309,PRD013,Denim Jacket,Apparel,Neha Agarwal,Bangalore,8328460033,IN,Credit Card,7258.07,4,2024-04-04
+ORD0310,PRD011,Resistance Bands,Sports,Priya Patel,Jaipur,9282810353,IN,UPI,8421.87,1,2025-02-22
+ORD0311,PRD001,Cotton Kurti,Apparel,Kavya Menon,Bangalore,7958546579,IN,Wallet,2467.05,2,10/07/2024
+ORD0312,PRD001,Cotton Kurti,Apparel,Aisha Khan,Surat,7766685440,IN,Cash,6659.99,1,2024-01-04
+ORD0313,PRD001,Cotton Kurti,Apparel,Aarav Shah,Jaipur,8997281896,IN,Wallet,2891.46,3,2024-01-09
+ORD0314,PRD011,Resistance Bands,Sports,Kavya Menon,Bangalore,8661938440,IN,,9195.88,5,2024-03-17
+ORD0315,PRD009,Silk Saree,Apparel,Arjun Nair,Pune,7971380304,IN,Debit Card,7989.38,1,2024-07-10
+ORD0316,,Smart Watch,Electronics,Pooja Reddy,Hyderabad,8791275402,IN,Debit Card,6902.61,1,2024-11-30
+ORD0317,PRD013,Denim Jacket,Apparel,Priya Patel,Delhi,258547,IN,Cash,3915.79,5,2024-08-31
+ORD0318,,Vitamin C Tablets,Health,Ananya Iyer,Delhi,6409575959,IN,Cash,8483.23,3,2024-10-16
+ORD0319,PRD015,Non-stick Pan,Kitchen,Nikhil Rao,Mumbai,9969233836,IN,Credit Card,2270.89,5,2024-08-31
+ORD0320,PRD002,Wireless Earbuds,Electronics,Deepa Nambiar,Chennai,7350701477,IN,Net Banking,5721.4,1,2024-04-01
+ORD0321,PRD001,Cotton Kurti,Apparel,Karan Mehta,Surat,8422182038,IN,Credit Card,7571.09,4,2024-02-09
+ORD0322,PRD004,Face Serum,Beauty,Manish Tiwari,Kolkata,6601083212,IN,Wallet,8984.95,3,2024-07-15
+ORD0323,PRD013,Denim Jacket,Apparel,Rajesh Kulkarni,Delhi,9cazzz3cz2,IN,Net Banking,7504.47,3,2024-01-28
+ORD0324,PRD008,Protein Powder,Health,Ritika Bose,Hyderabad,,IN,Debit Card,5618.77,4,2024-08-09
+ORD0325,PRD010,Smart Watch,Electronics,Deepa Nambiar,Kolkata,6315708805,IN,,7766.24,3,2025-02-12
+ORD0326,PRD002,Wireless Earbuds,Electronics,Arjun Nair,Bangalore,7549195708,IN,Cash,7173.44,2,2025-01-13
+ORD0327,PRD002,Wireless Earbuds,Electronics,Rohit Sharma,Mumbai,9byyxaxazc,IN,Debit Card,4557.41,3,2024-02-22
+ORD0328,PRD007,Laptop Bag,Accessories,Aarav Shah,Chennai,9887836924,IN,Cash,3999.44,1,2025-01-06
+ORD0329,PRD004,Face Serum,Beauty,Manish Tiwari,Jaipur,7152798401,IN,Credit Card,6915.1,2,2024-03-12
+ORD0330,PRD008,Protein Powder,Health,Vikram Singh,Delhi,6330374745,IN,Credit Card,4458.83,4,2024-06-02
+ORD0331,PRD006,Stainless Steel Bottle,Kitchen,Arjun Nair,Hyderabad,6459442845,IN,Wallet,6324.33,5,10/03/2024
+ORD0332,PRD005,Running Shoes,Footwear,Aarav Shah,Kolkata,7890743044,IN,Debit Card,8446.81,4,2025-02-15
+ORD0333,PRD006,Stainless Steel Bottle,Kitchen,Kavya Menon,Surat,7349406919,IN,Credit Card,3143.27,5,31/03/2024
+ORD0334,PRD007,Laptop Bag,Accessories,Rahul Verma,Chennai,7399670743,IN,Wallet,7009.59,4,2024-10-21
+ORD0335,PRD007,Laptop Bag,Accessories,Arjun Nair,Kolkata,8343459102,IN,Debit Card,1315.1,5,2024-04-12
+ORD0336,PRD003,Yoga Mat,Sports,Deepa Nambiar,Jaipur,9426033231,IN,UPI,9538.45,4,29/05/2024
+ORD0337,PRD014,Bluetooth Speaker,Electronics,Rajesh Kulkarni,Delhi,7085259583,IN,Cash,6794.18,2,2024-11-20
+ORD0338,PRD011,Resistance Bands,Sports,Vikram Singh,Kolkata,8295090505,IN,Cash,923.86,5,2024-09-02
+ORD0339,PRD009,Silk Saree,Apparel,Sana Mirza,Kolkata,8305993661,IN,Net Banking,559.3,3,2024-12-25
+ORD0340,PRD010,Smart Watch,Electronics,Suresh Pillai,Delhi,6190252832,IN,UPI,7734.75,3,2024-03-26
+ORD0341,PRD010,Smart Watch,Electronics,Suresh Pillai,Kolkata,4440909,IN,Debit Card,9663.02,4,2024-02-24
+ORD0342,PRD004,Face Serum,Beauty,Nikhil Rao,Jaipur,7679908454,IN,Net Banking,5888.08,5,2024-04-23
+ORD0343,PRD008,Protein Powder,Health,Vivek Pandey,Surat,7268871731,IN,Wallet,5103.56,3,2024-01-13
+ORD0344,PRD007,Laptop Bag,Accessories,Sana Mirza,Delhi,7955638763,IN,UPI,8345.91,2,2024-06-27
+ORD0345,PRD013,Denim Jacket,Apparel,Karan Mehta,Jaipur,7943245911,IN,Cash,3612.34,1,2024-08-12
+ORD0346,PRD006,Stainless Steel Bottle,Kitchen,Rohit Sharma,Chennai,8783009621,IN,UPI,8138.82,1,2024-01-12
+ORD0347,PRD002,Wireless Earbuds,Electronics,Deepa Nambiar,Bangalore,,IN,Wallet,2589.35,2,2024-10-09
+ORD0348,PRD009,Silk Saree,Apparel,Kavya Menon,Ahmedabad,7856003347,IN,Credit Card,8017.01,2,2024-04-05
+ORD0349,PRD007,Laptop Bag,Accessories,Aarav Shah,Surat,3703680,IN,Credit Card,4604.84,4,2024-07-18
+ORD0350,PRD004,Face Serum,Beauty,Arjun Nair,Delhi,6846427583,IN,Net Banking,1196.17,5,2024-04-05
+ORD0351,PRD008,Protein Powder,Health,Sneha Gupta,Chennai,7669192918,IN,Wallet,8652.84,5,2024-11-23
+ORD0352,PRD010,Smart Watch,Electronics,Siddharth Roy,Surat,,IN,UPI,3608.66,4,2024-11-12
+ORD0353,PRD011,Resistance Bands,Sports,Rajesh Kulkarni,Chennai,9cb1yxbxbz,IN,Net Banking,5982.65,2,2024-06-09
+ORD0354,PRD012,Vitamin C Tablets,Health,Sana Mirza,Bangalore,,IN,Net Banking,1834.28,3,2024-03-12
+ORD0355,PRD014,Bluetooth Speaker,Electronics,Amit Kumar,Surat,923yy1x2ya,IN,UPI,8681.12,1,2024-09-05
+ORD0356,PRD001,Cotton Kurti,Apparel,Meera Bhatt,Hyderabad,9353253610,IN,Debit Card,519.41,2,2024-10-02
+ORD0357,PRD008,Protein Powder,Health,Manish Tiwari,Ahmedabad,8332623275,IN,Net Banking,5204.9,5,2024-02-28
+ORD0358,PRD014,Bluetooth Speaker,Electronics,Neha Agarwal,Jaipur,7826025489,IN,UPI,7647.04,4,22/02/2024
+ORD0359,PRD012,Vitamin C Tablets,Health,Aditya Saxena,Hyderabad,9703119199,IN,Debit Card,8772.14,1,2024-08-18
+ORD0360,PRD014,Bluetooth Speaker,Electronics,Rohit Sharma,Ahmedabad,8525113890,IN,UPI,7800.19,2,2024-04-17
+ORD0361,PRD012,Vitamin C Tablets,Health,Neha Agarwal,Surat,9494084172,IN,Wallet,4395.04,5,2024-03-12
+ORD0362,PRD004,Face Serum,Beauty,Meera Bhatt,Mumbai,7390081665,IN,Net Banking,3636.99,3,2024-11-01
+ORD0363,PRD012,Vitamin C Tablets,Health,Divya Joshi,Chennai,6582349911,IN,Net Banking,2818.96,5,2024-12-13
+ORD0364,PRD013,Denim Jacket,Apparel,Meera Bhatt,Kolkata,7072355594,IN,UPI,9925.37,2,2024-12-25
+ORD0365,PRD003,Yoga Mat,Sports,Rajesh Kulkarni,Pune,,IN,Credit Card,7661.44,4,2024-09-07
+ORD0366,PRD011,Resistance Bands,Sports,Arjun Nair,Kolkata,7194970235,IN,Cash,4628.52,1,2024-07-25
+ORD0367,PRD012,Vitamin C Tablets,Health,Sana Mirza,Pune,1662657,IN,Cash,9511.49,3,2024-10-24
+ORD0368,PRD012,Vitamin C Tablets,Health,Amit Kumar,Pune,9542693668,IN,UPI,7996.64,4,2024-04-21
+ORD0369,PRD004,Face Serum,Beauty,Ritika Bose,Chennai,8431561831,IN,Debit Card,8316.77,3,2024-10-07
+ORD0370,PRD014,Bluetooth Speaker,Electronics,Ritika Bose,Pune,9593608497,IN,Wallet,7669.09,1,2024-02-20
+ORD0371,PRD008,Protein Powder,Health,Aarav Shah,Delhi,8957479588,IN,Credit Card,4523.6,1,08/03/2024
+ORD0372,PRD015,Non-stick Pan,Kitchen,Suresh Pillai,Chennai,7075413763,IN,Credit Card,8768.35,3,2024-02-17
+ORD0373,PRD002,Wireless Earbuds,Electronics,Neha Agarwal,Bangalore,7005640129,IN,UPI,4083.15,3,2025-01-06
+ORD0374,PRD007,Laptop Bag,Accessories,Suresh Pillai,Delhi,3894852,IN,Wallet,1131.8,2,2024-09-01
+ORD0375,PRD009,Silk Saree,Apparel,Deepa Nambiar,Ahmedabad,921yca2axc,IN,UPI,278.01,3,2025-02-22
+ORD0376,PRD007,Laptop Bag,Accessories,Vivek Pandey,Bangalore,6036398723,IN,Wallet,9929.81,2,2024-02-05
+ORD0377,PRD010,Smart Watch,Electronics,Suresh Pillai,Bangalore,9950915172,IN,Cash,3640.64,2,2024-11-17
+ORD0378,PRD007,Laptop Bag,Accessories,Aisha Khan,Ahmedabad,8532200677,IN,Credit Card,1048.54,1,2024-03-12
+ORD0379,PRD012,Vitamin C Tablets,Health,Siddharth Roy,Pune,6361845490,IN,Cash,3281.14,2,2024-05-06
+ORD0380,PRD004,Face Serum,Beauty,Shreya Das,Surat,6115209930,IN,Net Banking,7266.56,3,2025-02-02
+ORD0381,PRD014,Bluetooth Speaker,Electronics,Riya Chopra,Chennai,7269343434,IN,Credit Card,5272.94,5,2024-04-06
+ORD0382,PRD011,Resistance Bands,Sports,Priya Patel,Hyderabad,6304994238,IN,Cash,3980.68,2,2024-09-12
+ORD0383,PRD009,Silk Saree,Apparel,Gaurav Malhotra,Mumbai,8441175185,IN,Debit Card,9351.46,2,2024-07-17
+ORD0384,PRD007,Laptop Bag,Accessories,Neha Agarwal,Jaipur,9954324,IN,Wallet,1892.15,4,2025-01-29
+ORD0385,PRD002,Wireless Earbuds,Electronics,Aarav Shah,Chennai,7230455714,IN,Credit Card,589.3,1,2025-02-08
+ORD0386,PRD011,Resistance Bands,Sports,Rajesh Kulkarni,Jaipur,8309212177,IN,Cash,4350.04,4,2024-02-12
+ORD0387,,Smart Watch,Electronics,Vikram Singh,Chennai,6667339697,IN,UPI,3236.09,5,2024-04-14
+ORD0388,PRD009,Silk Saree,Apparel,Rahul Verma,Kolkata,9135147357,IN,Net Banking,6415.08,1,2024-06-07
+ORD0389,PRD014,Bluetooth Speaker,Electronics,Pooja Reddy,Mumbai,8614915281,IN,Credit Card,1043.89,4,2024-02-29
+ORD0390,PRD001,Cotton Kurti,Apparel,Divya Joshi,Bangalore,8428426,IN,UPI,323.12,2,2024-12-25
+ORD0391,PRD006,Stainless Steel Bottle,Kitchen,Nikhil Rao,Jaipur,9751482398,IN,Wallet,2739.62,3,2024-03-05
+ORD0392,PRD005,Running Shoes,Footwear,Sunita Desai,Delhi,7129360134,IN,UPI,3482.11,4,2024-05-19
+ORD0393,PRD012,Vitamin C Tablets,Health,Manish Tiwari,Delhi,8434757387,IN,Cash,4659.94,3,2024-01-29
+ORD0394,PRD003,Yoga Mat,Sports,Neha Agarwal,Bangalore,6980989514,IN,Debit Card,7777.62,5,2024-12-11
+ORD0395,PRD012,Vitamin C Tablets,Health,Nikhil Rao,Mumbai,6206512,IN,UPI,8614.15,1,2024-05-05
+ORD0396,PRD007,Laptop Bag,Accessories,Sana Mirza,Bangalore,9066695975,IN,Credit Card,9324.37,1,2024-10-10
+ORD0397,PRD012,Vitamin C Tablets,Health,Suresh Pillai,Kolkata,9547630097,IN,Credit Card,3352.66,4,2025-01-03
+ORD0398,PRD002,Wireless Earbuds,Electronics,Manish Tiwari,Pune,8215233002,IN,UPI,5119.0,1,24/01/2024
+ORD0399,PRD007,Laptop Bag,Accessories,Rohit Sharma,Ahmedabad,9yxc21cx33,IN,Debit Card,7779.57,3,2024-06-16
+ORD0400,PRD013,Denim Jacket,Apparel,Karan Mehta,Jaipur,7487878460,IN,,1674.55,4,2024-01-13
+ORD0401,PRD011,Resistance Bands,Sports,Aditya Saxena,Mumbai,7320748157,IN,Debit Card,213.33,4,2025-03-10
+ORD0402,PRD002,Wireless Earbuds,Electronics,Karan Mehta,Jaipur,6399546384,IN,Credit Card,4313.2,1,2024-03-13
+ORD0403,,Cotton Kurti,Apparel,Sana Mirza,Hyderabad,6364653118,IN,Net Banking,4246.96,3,2024-08-22
+ORD0404,PRD010,Smart Watch,Electronics,Sneha Gupta,Jaipur,6267502879,IN,Credit Card,6443.71,4,2024-02-08
+ORD0405,PRD007,Laptop Bag,Accessories,Deepa Nambiar,Bangalore,9572982562,IN,Credit Card,3057.43,3,2025-02-14
+ORD0406,PRD012,Vitamin C Tablets,Health,Rahul Verma,Pune,91aaycbx1y,IN,Cash,2864.17,1,2024-04-13
+ORD0407,PRD008,Protein Powder,Health,Arjun Nair,Delhi,8591164476,IN,UPI,1743.63,3,2025-02-27
+ORD0408,PRD001,Cotton Kurti,Apparel,Karan Mehta,Pune,6210241300,IN,Credit Card,1092.89,2,2024-07-01
+ORD0409,PRD011,Resistance Bands,Sports,Divya Joshi,Chennai,9212972476,IN,Credit Card,503.6,4,2025-03-13
+ORD0410,PRD009,Silk Saree,Apparel,Pooja Reddy,Delhi,3829376,IN,Cash,1197.69,2,2024-03-03
+ORD0411,PRD003,Yoga Mat,Sports,Karan Mehta,Kolkata,9940325728,IN,Debit Card,6924.6,1,2024-10-25
+ORD0412,PRD014,Bluetooth Speaker,Electronics,Rohit Sharma,Mumbai,932caybz2x,IN,UPI,2136.95,4,2025-02-18
+ORD0413,PRD001,Cotton Kurti,Apparel,Siddharth Roy,Kolkata,9794276323,IN,Credit Card,3667.64,2,2024-05-20
+ORD0414,PRD003,Yoga Mat,Sports,Priya Patel,Surat,8365189801,IN,Net Banking,6245.38,3,2024-09-12
+ORD0415,PRD008,Protein Powder,Health,Priya Patel,Delhi,9423939099,IN,Debit Card,3952.55,4,2024-04-12
+ORD0416,PRD009,Silk Saree,Apparel,Pooja Reddy,Jaipur,8081682554,IN,UPI,9895.16,3,2024-09-02
+ORD0417,PRD006,Stainless Steel Bottle,Kitchen,Sana Mirza,Surat,3774549,IN,Net Banking,3350.72,3,2024-04-02
+ORD0418,PRD001,Cotton Kurti,Apparel,Gaurav Malhotra,Chennai,8508213290,IN,UPI,8123.81,4,2024-09-28
+ORD0419,PRD004,Face Serum,Beauty,Ananya Iyer,Delhi,9939599460,IN,Credit Card,6636.27,3,2024-09-30
+ORD0420,PRD012,Vitamin C Tablets,Health,Priya Patel,Hyderabad,9630196130,IN,Net Banking,8494.75,4,2024-06-30
+ORD0421,PRD003,Yoga Mat,Sports,Ananya Iyer,Hyderabad,6000247,IN,Net Banking,3315.44,3,2024-10-29
+ORD0422,PRD010,Smart Watch,Electronics,Manish Tiwari,Bangalore,8106408413,IN,Net Banking,9493.01,4,2024-10-04
+ORD0423,PRD001,Cotton Kurti,Apparel,Rohit Sharma,Mumbai,7424786638,IN,Credit Card,6095.3,1,2024-09-26
+ORD0424,PRD015,Non-stick Pan,Kitchen,Aisha Khan,Hyderabad,7389803385,IN,Credit Card,3538.44,2,2025-02-14
+ORD0425,PRD001,Cotton Kurti,Apparel,Aarav Shah,Bangalore,9yxa1zzxc3,IN,Net Banking,7105.02,2,2025-01-31
+ORD0426,PRD012,Vitamin C Tablets,Health,Kavya Menon,Ahmedabad,8635860024,IN,Wallet,3308.38,5,2024-12-21
+ORD0427,PRD013,Denim Jacket,Apparel,Neha Agarwal,Hyderabad,8957078297,IN,Wallet,5970.71,2,2024-07-12
+ORD0428,PRD005,Running Shoes,Footwear,Vikram Singh,Bangalore,9310691309,IN,Wallet,216.62,5,2024-07-19
+ORD0429,PRD010,Smart Watch,Electronics,Priya Patel,Bangalore,6447150027,IN,Net Banking,3317.53,5,2024-04-23
+ORD0430,,Non-stick Pan,Kitchen,Ritika Bose,Bangalore,6721070971,IN,Debit Card,7503.36,2,2024-06-26
+ORD0431,PRD011,Resistance Bands,Sports,Gaurav Malhotra,Delhi,3617918,IN,Wallet,6765.24,3,2024-08-16
+ORD0432,PRD004,Face Serum,Beauty,Rajesh Kulkarni,Delhi,6574950,IN,Debit Card,2714.25,1,2025-01-03
+ORD0433,PRD008,Protein Powder,Health,Sunita Desai,Kolkata,8345155074,IN,Credit Card,8867.61,4,2025-03-27
+ORD0434,PRD007,Laptop Bag,Accessories,Sneha Gupta,Ahmedabad,9432514526,IN,Net Banking,6578.5,2,2024-03-24
+ORD0435,PRD014,Bluetooth Speaker,Electronics,Priya Patel,Chennai,9813635764,IN,UPI,3322.43,1,2024-02-07
+ORD0436,PRD007,Laptop Bag,Accessories,Ananya Iyer,Delhi,8635584024,IN,Net Banking,9428.97,1,2024-06-22
+ORD0437,PRD015,Non-stick Pan,Kitchen,Ritika Bose,Mumbai,6674755608,IN,Cash,9434.93,2,2024-11-06
+ORD0438,PRD001,Cotton Kurti,Apparel,Sneha Gupta,Pune,9975308329,IN,Credit Card,9748.1,4,2024-12-22
+ORD0439,PRD012,Vitamin C Tablets,Health,Shreya Das,Chennai,9692705,IN,Wallet,2957.93,2,2024-02-19
+ORD0440,PRD009,Silk Saree,Apparel,Aditya Saxena,Ahmedabad,92zyabz3yb,IN,Credit Card,733.15,1,2024-08-06
+ORD0441,PRD013,Denim Jacket,Apparel,Siddharth Roy,Ahmedabad,7664416298,IN,Cash,8968.8,3,2024-02-16
+ORD0442,PRD003,Yoga Mat,Sports,Neha Agarwal,Kolkata,7131297865,IN,Debit Card,2027.51,1,2024-05-14
+ORD0443,PRD004,Face Serum,Beauty,Aditya Saxena,Chennai,9471107346,IN,Net Banking,803.07,1,2024-02-13
+ORD0444,PRD009,Silk Saree,Apparel,Kavya Menon,Surat,8300016872,IN,Credit Card,5624.3,4,2025-02-23
+ORD0445,PRD011,Resistance Bands,Sports,Riya Chopra,Ahmedabad,682647,IN,Net Banking,8839.21,4,2024-06-02
+ORD0446,PRD009,Silk Saree,Apparel,Manish Tiwari,Jaipur,91b332bx3x,IN,Net Banking,6838.84,5,2024-03-16
+ORD0447,PRD014,Bluetooth Speaker,Electronics,Suresh Pillai,Bangalore,7706626708,IN,Net Banking,2726.29,1,2024-02-14
+ORD0448,PRD009,Silk Saree,Apparel,Rahul Verma,Chennai,8523620074,IN,Net Banking,4688.94,1,2025-02-06
+ORD0449,PRD009,Silk Saree,Apparel,Meera Bhatt,Kolkata,9257206064,IN,UPI,4260.54,2,2024-10-17
+ORD0450,PRD002,Wireless Earbuds,Electronics,Sana Mirza,Delhi,7476906868,IN,Net Banking,7838.54,3,2025-03-20
+ORD0451,PRD015,Non-stick Pan,Kitchen,Kavya Menon,Chennai,6739592196,IN,Cash,6615.92,5,2024-11-07
+ORD0452,PRD005,Running Shoes,Footwear,Siddharth Roy,Bangalore,9775094300,IN,Net Banking,6163.82,4,2024-01-20
+ORD0453,PRD006,Stainless Steel Bottle,Kitchen,Rajesh Kulkarni,Hyderabad,5184418,IN,UPI,7507.35,3,2024-07-09
+ORD0454,PRD005,Running Shoes,Footwear,Arjun Nair,Ahmedabad,9194268714,IN,Wallet,6910.55,2,2024-03-09
+ORD0455,PRD008,Protein Powder,Health,Vivek Pandey,Pune,9x3xyyxa2a,IN,Debit Card,7341.23,5,2024-11-26
+ORD0456,PRD012,Vitamin C Tablets,Health,Nikhil Rao,Kolkata,6746196273,IN,Credit Card,7848.06,5,2025-03-26
+ORD0457,PRD004,Face Serum,Beauty,Gaurav Malhotra,Hyderabad,9026379752,IN,UPI,2644.0,4,2024-01-26
+ORD0458,PRD004,Face Serum,Beauty,Arjun Nair,Pune,6348955,IN,Cash,5149.24,1,2024-12-14
+ORD0459,PRD008,Protein Powder,Health,Aisha Khan,Ahmedabad,7478538226,IN,Credit Card,9612.1,4,2024-10-27
+ORD0460,PRD003,Yoga Mat,Sports,Aditya Saxena,Chennai,933006,IN,Wallet,8341.53,1,2024-05-25
+ORD0461,PRD003,Yoga Mat,Sports,Riya Chopra,Surat,8798546298,IN,Credit Card,8598.69,2,28/07/2024
+ORD0462,PRD009,Silk Saree,Apparel,Aarav Shah,Mumbai,6961084962,IN,Cash,9131.85,2,2024-11-03
+ORD0463,PRD005,Running Shoes,Footwear,Aisha Khan,Chennai,9657534761,IN,Wallet,9675.84,3,2024-08-04
+ORD0464,PRD006,Stainless Steel Bottle,Kitchen,Amit Kumar,Chennai,8510353238,IN,Credit Card,4772.64,5,2025-02-26
+ORD0465,PRD002,Wireless Earbuds,Electronics,Aarav Shah,Jaipur,8615850281,IN,Wallet,9670.56,3,2024-10-14
+ORD0466,PRD005,Running Shoes,Footwear,Divya Joshi,Delhi,7189211712,IN,Cash,824.6,3,2024-11-23
+ORD0467,PRD005,Running Shoes,Footwear,Suresh Pillai,Chennai,9446126047,IN,Credit Card,1668.31,2,2024-01-30
+ORD0468,PRD013,Denim Jacket,Apparel,Aisha Khan,Kolkata,8444531,IN,Wallet,3330.94,2,2025-01-04
+ORD0469,PRD005,Running Shoes,Footwear,Arjun Nair,Kolkata,8456903534,IN,Cash,4004.09,1,2024-10-25
+ORD0470,PRD014,Bluetooth Speaker,Electronics,Karan Mehta,Pune,9893501680,IN,Wallet,7190.02,5,2024-11-22
+ORD0471,PRD011,Resistance Bands,Sports,Neha Agarwal,Jaipur,8021988477,IN,Debit Card,8484.11,5,2024-04-02
+ORD0472,PRD003,Yoga Mat,Sports,Sunita Desai,Chennai,8810775408,IN,Wallet,8120.77,2,2024-12-14
+ORD0473,PRD002,Wireless Earbuds,Electronics,Pooja Reddy,Pune,7422996266,IN,Credit Card,7492.26,3,2024-08-03
+ORD0474,PRD006,Stainless Steel Bottle,Kitchen,Arjun Nair,Surat,9890757,IN,Debit Card,4743.85,1,2024-08-28
+ORD0475,PRD010,Smart Watch,Electronics,Aisha Khan,Delhi,7639256813,IN,Cash,8915.38,5,2024-03-02
+ORD0476,,Silk Saree,Apparel,Divya Joshi,Kolkata,7471755952,IN,UPI,8733.32,2,2024-03-11
+ORD0477,PRD007,Laptop Bag,Accessories,Manish Tiwari,Ahmedabad,9c3cayb1zb,IN,Credit Card,3299.56,2,2025-02-02
+ORD0478,PRD013,Denim Jacket,Apparel,Vivek Pandey,Delhi,8050418568,IN,Credit Card,6220.9,4,2024-07-25
+ORD0479,PRD007,Laptop Bag,Accessories,Aarav Shah,Mumbai,9250636259,IN,Net Banking,2153.26,3,2024-01-08
+ORD0480,PRD014,Bluetooth Speaker,Electronics,Nikhil Rao,Hyderabad,7478971008,IN,UPI,6831.13,2,2024-04-25
+ORD0481,PRD005,Running Shoes,Footwear,Vikram Singh,Delhi,867026,IN,Cash,5131.7,3,2024-03-26
+ORD0482,PRD005,Running Shoes,Footwear,Divya Joshi,Ahmedabad,8949698295,IN,Wallet,5297.83,5,2024-06-21
+ORD0483,PRD003,Yoga Mat,Sports,Rahul Verma,Ahmedabad,6981049082,IN,Debit Card,7550.13,2,2025-02-19
+ORD0484,PRD004,Face Serum,Beauty,Sunita Desai,Bangalore,,IN,Credit Card,7392.95,5,2024-09-15
+ORD0485,PRD006,Stainless Steel Bottle,Kitchen,Rajesh Kulkarni,Mumbai,6208679403,IN,Cash,8789.13,3,2025-01-29
+ORD0486,PRD010,Smart Watch,Electronics,Priya Patel,Delhi,9xbc1b1axa,IN,Wallet,8392.98,1,2024-12-19
+ORD0487,PRD009,Silk Saree,Apparel,Arjun Nair,Surat,8197239905,IN,Net Banking,7066.12,4,2025-03-01
+ORD0488,PRD012,Vitamin C Tablets,Health,Aisha Khan,Delhi,6857917067,IN,Debit Card,1316.32,1,02/02/2025
+ORD0489,PRD005,Running Shoes,Footwear,Aditya Saxena,Jaipur,,IN,Credit Card,3706.63,4,2024-05-31
+ORD0490,PRD009,Silk Saree,Apparel,Ritika Bose,Hyderabad,1593219,IN,Wallet,9343.62,3,2024-04-30
+ORD0491,PRD015,Non-stick Pan,Kitchen,Sneha Gupta,Surat,9107682060,IN,Wallet,5041.22,1,2025-02-03
+ORD0492,PRD012,Vitamin C Tablets,Health,Sneha Gupta,Chennai,6428676004,IN,Wallet,2464.37,3,2024-05-15
+ORD0493,PRD014,Bluetooth Speaker,Electronics,Ananya Iyer,Mumbai,6408015311,IN,Debit Card,3729.1,3,2024-08-06
+ORD0494,PRD014,Bluetooth Speaker,Electronics,Vivek Pandey,Mumbai,7879969532,IN,UPI,8548.59,2,2024-06-17
+ORD0495,PRD010,Smart Watch,Electronics,Arjun Nair,Delhi,7960818751,IN,Debit Card,8185.65,2,2024-02-28
+ORD0496,PRD005,Running Shoes,Footwear,Aditya Saxena,Kolkata,6716309186,IN,Wallet,8535.58,4,2024-11-28
+ORD0497,PRD002,Wireless Earbuds,Electronics,Vikram Singh,Mumbai,8913676335,IN,Credit Card,1215.39,5,2024-09-04
+ORD0498,PRD008,Protein Powder,Health,Ananya Iyer,Surat,9779357509,IN,Cash,7834.81,5,2024-01-15
+ORD0499,PRD014,Bluetooth Speaker,Electronics,Sunita Desai,Bangalore,6197449658,IN,Cash,9218.9,1,2025-03-30
+ORD0500,PRD002,Wireless Earbuds,Electronics,Arjun Nair,Pune,9108583686,IN,UPI,7103.77,5,2025-01-27

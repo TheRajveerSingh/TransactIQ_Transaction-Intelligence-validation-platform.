@@ -1,0 +1,17 @@
+{
+  "country_phone_rules": {
+    "IN": { "name": "India", "digits": 10 },
+    "SG": { "name": "Singapore", "digits": 8 },
+    "US": { "name": "United States", "digits": 10 },
+    "GB": { "name": "United Kingdom", "digits": 10 },
+    "AE": { "name": "UAE", "digits": 9 }
+  },
+  "date_formats": [
+    "%Y-%m-%d",
+    "%d-%m-%Y",
+    "%d/%m/%Y",
+    "%Y/%m/%d",
+    "%d-%b-%Y"
+  ],
+  "chunk_size": 1000
+}

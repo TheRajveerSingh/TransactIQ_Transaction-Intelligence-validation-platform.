@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TransactIQ – Transaction Validator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-gray-100 min-h-screen font-sans">
+
+  <!-- Header -->
+  <div class="bg-gray-900 border-b border-gray-800 px-8 py-4 flex items-center justify-between">
+    <div>
+      <h1 class="text-xl font-bold text-white">TransactIQ</h1>
+      <p class="text-xs text-gray-400">Transaction Data Validation Platform</p>
+    </div>
+    <span class="text-xs bg-blue-600 text-white px-3 py-1 rounded-full">by Rajveer</span>
+  </div>
+
+  <div class="max-w-5xl mx-auto px-6 py-10">
+
+    <!-- Upload Card -->
+    <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 mb-8">
+      <h2 class="text-lg font-semibold mb-6 text-white">Upload Transaction CSV</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+
+        <!-- File Upload -->
+        <div class="md:col-span-2">
+          <label class="block text-sm text-gray-400 mb-2">CSV File</label>
+          <input type="file" id="csvFile" accept=".csv"
+            class="w-full text-sm text-gray-300 bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 cursor-pointer file:mr-4 file:py-1 file:px-3 file:rounded file:border-0 file:bg-blue-600 file:text-white file:text-sm hover:border-blue-500 transition"/>
+        </div>
+
+        <!-- Country Code -->
+        <div>
+          <label class="block text-sm text-gray-400 mb-2">Country Code</label>
+          <select id="countryCode"
+            class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-blue-500">
+          </select>
+        </div>
+      </div>
+
+      <!-- Chunk Size + Config -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div>
+          <label class="block text-sm text-gray-400 mb-2">Chunk Size <span class="text-gray-600">(rows per file)</span></label>
+          <input type="number" id="chunkSize" value="1000" min="100"
+            class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-blue-500"/>
+        </div>
+        <div>
+          <label class="block text-sm text-gray-400 mb-2">Add Country Rule</label>
+          <div class="flex gap-2">
+            <input type="text" id="newCode" placeholder="e.g. JP" maxlength="2"
+              class="w-20 bg-gray-800 border border-gray-700 rounded-lg px-3 py-3 text-sm text-white focus:outline-none focus:border-blue-500 uppercase"/>
+            <input type="number" id="newDigits" placeholder="digits"
+              class="w-24 bg-gray-800 border border-gray-700 rounded-lg px-3 py-3 text-sm text-white focus:outline-none focus:border-blue-500"/>
+            <input type="text" id="newName" placeholder="Country name"
+              class="flex-1 bg-gray-800 border border-gray-700 rounded-lg px-3 py-3 text-sm text-white focus:outline-none focus:border-blue-500"/>
+            <button onclick="addCountryRule()"
+              class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-lg text-sm transition">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <button onclick="runValidation()"
+        class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 rounded-xl transition text-sm">
+        Run Validation
+      </button>
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="hidden text-center py-10">
+      <div class="inline-block w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-3"></div>
+      <p class="text-gray-400 text-sm">Validating your data...</p>
+    </div>
+
+    <!-- Results -->
+    <div id="results" class="hidden">
+
+      <!-- Summary Cards -->
+      <div class="grid grid-cols-3 gap-4 mb-8">
+        <div class="bg-gray-900 border border-gray-800 rounded-xl p-6 text-center">
+          <p class="text-3xl font-bold text-white" id="totalCount">0</p>
+          <p class="text-sm text-gray-400 mt-1">Total Rows</p>
+        </div>
+        <div class="bg-gray-900 border border-green-900 rounded-xl p-6 text-center">
+          <p class="text-3xl font-bold text-green-400" id="validCount">0</p>
+          <p class="text-sm text-gray-400 mt-1">Valid Rows</p>
+        </div>
+        <div class="bg-gray-900 border border-red-900 rounded-xl p-6 text-center">
+          <p class="text-3xl font-bold text-red-400" id="invalidCount">0</p>
+          <p class="text-sm text-gray-400 mt-1">Invalid Rows</p>
+        </div>
+      </div>
+
+      <!-- Error Breakdown -->
+      <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 mb-8">
+        <h3 class="text-sm font-semibold text-gray-300 mb-4">Error Breakdown</h3>
+        <div id="errorBreakdown" class="space-y-2"></div>
+      </div>
+      <!-- AI Recommendations -->
+      <div id="aiSection" class="bg-gray-900 border border-blue-900 rounded-2xl p-6 mb-8">
+        <div class="flex items-center gap-2 mb-4">
+          <span class="text-blue-400 text-lg">✦</span>
+          <h3 class="text-sm font-semibold text-blue-300">AI-Powered Fix Recommendations</h3>
+          <span class="text-xs bg-blue-900 text-blue-300 px-2 py-0.5 rounded-full">Groq · LLaMA 3.3</span>
+        </div>
+        <div id="aiContent" class="text-sm text-gray-300 leading-relaxed whitespace-pre-wrap"></div>
+      </div>
+      <!-- Download Buttons -->
+      <div class="grid grid-cols-3 gap-4 mb-8">
+        <a href="/download/valid"
+          class="bg-green-700 hover:bg-green-600 text-white text-center py-3 rounded-xl text-sm font-semibold transition">
+          Download Valid Rows
+        </a>
+        <a href="/download/invalid"
+          class="bg-red-700 hover:bg-red-600 text-white text-center py-3 rounded-xl text-sm font-semibold transition">
+          Download Invalid Rows
+        </a>
+        <a href="/download/chunks"
+          class="bg-gray-700 hover:bg-gray-600 text-white text-center py-3 rounded-xl text-sm font-semibold transition">
+          Download as Chunks (.zip)
+        </a>
+      </div>
+
+      <!-- Invalid Rows Preview -->
+      <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6">
+        <h3 class="text-sm font-semibold text-gray-300 mb-4">Invalid Rows Preview <span class="text-gray-600">(first 50)</span></h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-xs text-left">
+            <thead id="previewHead" class="text-gray-500 border-b border-gray-800"></thead>
+            <tbody id="previewBody" class="divide-y divide-gray-800"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  let countryRules = {};
+
+  async function loadConfig() {
+    const res = await fetch("/config");
+    const data = await res.json();
+    countryRules = data.country_phone_rules;
+    const select = document.getElementById("countryCode");
+    select.innerHTML = "";
+    for (const [code, info] of Object.entries(countryRules)) {
+      const opt = document.createElement("option");
+      opt.value = code;
+      opt.textContent = `${code} – ${info.name} (${info.digits} digits)`;
+      select.appendChild(opt);
+    }
+  }
+
+  function addCountryRule() {
+    const code = document.getElementById("newCode").value.trim().toUpperCase();
+    const digits = parseInt(document.getElementById("newDigits").value.trim());
+    const name = document.getElementById("newName").value.trim();
+    if (!code || !digits || !name) return alert("Fill all three fields.");
+    countryRules[code] = { name, digits };
+    const select = document.getElementById("countryCode");
+    const opt = document.createElement("option");
+    opt.value = code;
+    opt.textContent = `${code} – ${name} (${digits} digits)`;
+    select.appendChild(opt);
+    select.value = code;
+    document.getElementById("newCode").value = "";
+    document.getElementById("newDigits").value = "";
+    document.getElementById("newName").value = "";
+  }
+
+  async function runValidation() {
+    const file = document.getElementById("csvFile").files[0];
+    const country = document.getElementById("countryCode").value;
+    const chunkSize = document.getElementById("chunkSize").value;
+    if (!file) return alert("Please upload a CSV file.");
+
+    document.getElementById("loading").classList.remove("hidden");
+    document.getElementById("results").classList.add("hidden");
+
+    const form = new FormData();
+    form.append("file", file);
+    form.append("country_code", country);
+    form.append("chunk_size", chunkSize);
+
+    const res = await fetch("/validate", { method: "POST", body: form });
+    const data = await res.json();
+
+    document.getElementById("loading").classList.add("hidden");
+
+    if (data.error) return alert("Error: " + data.error);
+
+    document.getElementById("totalCount").textContent = data.summary.total;
+    document.getElementById("validCount").textContent = data.summary.valid;
+    document.getElementById("invalidCount").textContent = data.summary.invalid;
+
+    // Error breakdown
+    const bd = document.getElementById("errorBreakdown");
+    bd.innerHTML = "";
+    const breakdown = data.summary.error_breakdown;
+    if (Object.keys(breakdown).length === 0) {
+      bd.innerHTML = '<p class="text-green-400 text-sm">No errors found!</p>';
+    } else {
+      for (const [err, count] of Object.entries(breakdown)) {
+        bd.innerHTML += `
+          <div class="flex justify-between items-center text-sm">
+            <span class="text-gray-300">${err}</span>
+            <span class="bg-red-900 text-red-300 px-2 py-0.5 rounded text-xs">${count} rows</span>
+          </div>`;
+      }
+    }
+
+    // Preview table
+    const cols = data.columns;
+    const head = document.getElementById("previewHead");
+    const body = document.getElementById("previewBody");
+    head.innerHTML = "<tr>" + [...cols, "_errors", "_status"].map(c =>
+      `<th class="py-2 pr-4 font-medium">${c}</th>`).join("") + "</tr>";
+    body.innerHTML = "";
+    for (const row of data.invalid_preview) {
+      const tr = document.createElement("tr");
+      tr.classList.add("text-gray-400");
+      [...cols, "_errors", "_status"].forEach(col => {
+        const td = document.createElement("td");
+        td.className = "py-2 pr-4";
+        if (col === "_status") td.className += " text-red-400 font-semibold";
+        if (col === "_errors") td.className += " text-yellow-400";
+        td.textContent = row[col] ?? "";
+        tr.appendChild(td);
+      });
+      body.appendChild(tr);
+    }
+    // AI Recommendations
+    document.getElementById("aiContent").textContent = data.ai_recommendations;
+    document.getElementById("results").classList.remove("hidden");
+  }
+
+  loadConfig();
+</script>
+</body>
+</html>
