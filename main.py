@@ -75,12 +75,14 @@ async def validate(
         app.state.chunk_size = chunk_size
 
         invalid_preview = invalid_df.head(50).replace({np.nan: None}).to_dict(orient="records")
+        valid_preview = valid_df.head(50).replace({np.nan: None}).to_dict(orient="records")
 
         ai_recommendations = get_ai_recommendations(summary["error_breakdown"])
 
         return JSONResponse({
             "summary": summary,
             "invalid_preview": invalid_preview,
+            "valid_preview": valid_preview,
             "columns": list(df.columns),
             "ai_recommendations": ai_recommendations
         })
