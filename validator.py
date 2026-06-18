@@ -25,21 +25,51 @@ def validate_phone(phone, country_code):
     return True, "OK"
 
 
-def validate_date(date_val):
+def validate_date(date_val, date_format="ALL"):
     if pd.isna(date_val) or str(date_val).strip() == "":
         return False, "Missing date"
-    for fmt in DATE_FORMATS:
+
+    # Build combined format list from selected formats
+    if isinstance(date_format, list):
+        formats_to_try = []
+        for fmt in date_format:
+            formats_to_try.extend(DATE_FORMATS.get(fmt, []))
+    else:
+        formats_to_try = DATE_FORMATS.get(date_format, DATE_FORMATS["ALL"])
+
+    val_str = str(date_val).strip()
+    for fmt in formats_to_try:
         try:
-            datetime.strptime(str(date_val).strip(), fmt)
+            datetime.strptime(val_str, fmt)
             return True, "OK"
         except ValueError:
             continue
-    return False, f"Date '{date_val}' doesn't match any accepted format"
+
+    selected = date_format if isinstance(date_format, str) else " or ".join(date_format)
+    return False, f"Date '{date_val}' doesn't match {selected}"
+
+    formats_to_try = DATE_FORMATS.get(date_format, DATE_FORMATS["ALL"])
+    val_str = str(date_val).strip()
+
+    for fmt in formats_to_try:
+        try:
+            datetime.strptime(val_str, fmt)
+            return True, "OK"
+        except ValueError:
+            continue
+
+    friendly = {
+        "YYYY-MM-DD": "YYYY-MM-DD (e.g. 2025-03-25)",
+        "DD-MM-YYYY": "DD-MM-YYYY (e.g. 25-03-2025)",
+        "MM-DD-YYYY": "MM-DD-YYYY (e.g. 03-25-2025)",
+        "ALL": "any accepted format"
+    }
+    return False, f"Date '{date_val}' doesn't match {friendly.get(date_format, date_format)}"
 
 
 def validate_email(email):
     if pd.isna(email) or str(email).strip() == "":
-        return True, "OK"  # email is optional — only validate if present
+        return True, "OK"
     pattern = r'^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$'
     if not re.match(pattern, str(email).strip()):
         return False, f"Invalid email format: {email}"
@@ -50,9 +80,7 @@ def validate_amount(amount):
     if pd.isna(amount) or str(amount).strip() == "":
         return False, "Missing amount"
     try:
-        # Handle international formats: 1.000,50 (European) → 1000.50
         val_str = str(amount).strip()
-        # If comma is decimal separator (e.g. 1.234,56)
         if re.match(r'^\d{1,3}(\.\d{3})*(,\d+)?$', val_str):
             val_str = val_str.replace('.', '').replace(',', '.')
         else:
@@ -65,26 +93,23 @@ def validate_amount(amount):
         return False, f"Amount '{amount}' is not a valid number"
 
 
-def validate_row(row, country_code, features, duplicate_ids=None):
+def validate_row(row, country_code, features, duplicate_ids=None, date_format="ALL"):
     errors = []
 
-    # Phone validation
     if features.get("phone", True):
         phone_col = next((c for c in row.index if "phone" in c.lower()), None)
         if phone_col:
-            phone_ok, phone_msg = validate_phone(row[phone_col], country_code)
-            if not phone_ok:
-                errors.append(phone_msg)
+            ok, msg = validate_phone(row[phone_col], country_code)
+            if not ok:
+                errors.append(msg)
 
-    # Date validation
     if features.get("date", True):
         for col in row.index:
             if "date" in col.lower() or "time" in col.lower():
-                date_ok, date_msg = validate_date(row[col])
-                if not date_ok:
-                    errors.append(f"{col}: {date_msg}")
+                ok, msg = validate_date(row[col], date_format)
+                if not ok:
+                    errors.append(f"{col}: {msg}")
 
-    # Null checks on critical fields
     if features.get("nulls", True):
         critical_fields = ["order_id", "product_id", "payment_mode"]
         for field in critical_fields:
@@ -92,23 +117,20 @@ def validate_row(row, country_code, features, duplicate_ids=None):
                 if pd.isna(row[field]) or str(row[field]).strip() == "":
                     errors.append(f"Missing value in '{field}'")
 
-    # Amount validation
     if features.get("amount", True):
         amount_col = next((c for c in row.index if "amount" in c.lower() or "price" in c.lower() or "total" in c.lower()), None)
         if amount_col:
-            amt_ok, amt_msg = validate_amount(row[amount_col])
-            if not amt_ok:
-                errors.append(amt_msg)
+            ok, msg = validate_amount(row[amount_col])
+            if not ok:
+                errors.append(msg)
 
-    # Email validation
     if features.get("email", True):
         email_col = next((c for c in row.index if "email" in c.lower()), None)
         if email_col:
-            email_ok, email_msg = validate_email(row[email_col])
-            if not email_ok:
-                errors.append(email_msg)
+            ok, msg = validate_email(row[email_col])
+            if not ok:
+                errors.append(msg)
 
-    # Duplicate order ID
     if features.get("duplicates", True) and duplicate_ids is not None:
         order_col = next((c for c in row.index if "order_id" in c.lower()), None)
         if order_col and not pd.isna(row[order_col]):
@@ -118,7 +140,7 @@ def validate_row(row, country_code, features, duplicate_ids=None):
     return errors
 
 
-def validate_csv(df, country_code, features=None):
+def validate_csv(df, country_code, features=None, date_format="ALL"):
     if features is None:
         features = {
             "phone": True, "date": True, "nulls": True,
@@ -129,7 +151,6 @@ def validate_csv(df, country_code, features=None):
     df["_errors"] = ""
     df["_status"] = "Valid"
 
-    # Find duplicate order IDs upfront
     duplicate_ids = set()
     if features.get("duplicates", True):
         order_col = next((c for c in df.columns if "order_id" in c.lower()), None)
@@ -138,7 +159,7 @@ def validate_csv(df, country_code, features=None):
             duplicate_ids = set(counts[counts > 1].index)
 
     for idx, row in df.iterrows():
-        errors = validate_row(row, country_code, features, duplicate_ids)
+        errors = validate_row(row, country_code, features, duplicate_ids, date_format)
         if errors:
             df.at[idx, "_errors"] = " | ".join(errors)
             df.at[idx, "_status"] = "Invalid"

@@ -2,7 +2,6 @@ import io
 import json
 import uuid
 import zipfile
-import tempfile
 import os
 import pandas as pd
 import numpy as np
@@ -19,6 +18,7 @@ load_dotenv()
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 SESSIONS = {}
+
 
 def get_ai_recommendations(error_breakdown: dict) -> str:
     if not error_breakdown:
@@ -37,14 +37,14 @@ Format your response as:
     response = groq_client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=600
+        max_tokens=800
     )
     return response.choices[0].message.content
 
 
 def query_dataframe(df: pd.DataFrame, question: str, scope: str) -> dict:
     columns = list(df.columns)
-    sample = df.head(3).to_dict(orient="records")
+    sample = df.head(3).replace({np.nan: None}).to_dict(orient="records")
     prompt = f"""You are a pandas data analyst. The user has a dataframe with these columns: {columns}
 Sample rows: {sample}
 Scope: {scope} rows only.
@@ -96,13 +96,30 @@ def get_config():
 async def validate(
     file: UploadFile = File(...),
     country_code: str = Form(...),
-    chunk_size: int = Form(1000)
+    chunk_size: int = Form(1000),
+    features: str = Form("{}"),
+    date_format: str = Form("ALL")
 ):
     try:
+        features_dict = json.loads(features)
+        if not features_dict:
+            features_dict = {
+                "phone": True, "date": True, "nulls": True,
+                "amount": True, "duplicates": True, "email": True
+            }
+
+        # Parse date_format — could be a JSON array or a plain string
+        try:
+            date_fmt_parsed = json.loads(date_format)
+            if isinstance(date_fmt_parsed, list) and len(date_fmt_parsed) == 1:
+                date_fmt_parsed = date_fmt_parsed[0]
+        except (json.JSONDecodeError, TypeError):
+            date_fmt_parsed = date_format
+
         contents = await file.read()
         df = pd.read_csv(io.BytesIO(contents))
 
-        valid_df, invalid_df, summary = validate_csv(df, country_code)
+        valid_df, invalid_df, summary = validate_csv(df, country_code, features_dict, date_fmt_parsed)
 
         session_id = str(uuid.uuid4())
         SESSIONS[session_id] = {
@@ -150,12 +167,33 @@ async def chat(request: dict):
     if df.empty:
         return JSONResponse({"error": "No data available for this scope."}, status_code=400)
 
+    # Handle simple count questions directly
+    q_lower = question.lower()
+    if any(p in q_lower for p in ["how many rows", "total rows", "row count", "how many records", "count of rows"]):
+        return JSONResponse({
+            "answer": f"There are {len(df)} rows in the {scope} dataset.",
+            "has_table": False,
+            "rows": [],
+            "columns": []
+        })
+
+    if any(p in q_lower for p in ["how many columns", "column count", "what columns", "list columns", "show columns"]):
+        cols = list(df.columns)
+        return JSONResponse({
+            "answer": f"There are {len(cols)} columns: {', '.join(cols)}.",
+            "has_table": False,
+            "rows": [],
+            "columns": []
+        })
+
     result = query_dataframe(df, question, scope)
-    
+
     if not result["success"]:
         return JSONResponse({
             "answer": f"I couldn't process that query. Try rephrasing it.\n\nError: {result['error']}",
-            "has_table": False
+            "has_table": False,
+            "rows": [],
+            "columns": []
         })
 
     count = result["count"]
@@ -168,8 +206,7 @@ async def chat(request: dict):
         "query": result["query"],
         "has_table": count > 0,
         "rows": result.get("rows", []),
-        "columns": result.get("columns", []),
-        "has_table": True if count > 0 else False
+        "columns": result.get("columns", [])
     })
 
 

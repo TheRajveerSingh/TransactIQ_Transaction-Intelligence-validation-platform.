@@ -1,0 +1,506 @@
+order_id,product_id,product_name,category,customer_name,city,phone_number,country_code,payment_mode,amount,quantity,order_date,email
+ORD0192,,Cotton Kurti,Apparel,Sneha Gupta,Bangalore,6886072779,IN,UPI,5172.15,1,2024-06-11,missing@
+ORD0456,PRD006,Stainless Steel Bottle,Kitchen,Suresh Pillai,Bangalore,6310847929,IN,Wallet,8167.34,3,2025-01-19,test@domain.co.in
+ORD0217,PRD001,Cotton Kurti,Apparel,Nikhil Rao,Pune,7608898897,IN,UPI,3477.16,2,2025-01-08,hello@company.in
+ORD0183,PRD001,Cotton Kurti,Apparel,Amit Kumar,Ahmedabad,9cba11xbz1,IN,Net Banking,6837.45,2,2024-08-21,user@gmail.com
+ORD0277,PRD006,Stainless Steel Bottle,Kitchen,Rahul Verma,Bangalore,9688286178,IN,UPI,399.43,5,2025-01-01,test@domain.co.in
+ORD0085,PRD006,Stainless Steel Bottle,Kitchen,Meera Bhatt,Bangalore,9160422365,IN,UPI,1725.46,4,2024-08-25,info@hotmail.com
+ORD0175,PRD007,Laptop Bag,Accessories,Amit Kumar,Pune,7377516028,IN,UPI,4110.74,4,2024-08-30,support@outlook.com
+ORD0445,PRD008,Protein Powder,Health,Amit Kumar,Bangalore,8899569512,IN,Wallet,3018.89,2,2025-01-15,test@domain.co.in
+ORD0233,PRD010,Smart Watch,Electronics,Kavya Menon,Kolkata,7980877144,IN,Debit Card,9415.58,2,2024-02-22,contact@yahoo.com
+ORD0161,PRD001,Cotton Kurti,Apparel,Rahul Verma,Mumbai,6960516039,IN,Cash,4584.52,3,2024-04-08,hello@company.in
+ORD0019,PRD003,Yoga Mat,Sports,Meera Bhatt,Chennai,8819887960,IN,Wallet,4282.78,2,2024-07-28,info@hotmail.com
+ORD0023,PRD007,Laptop Bag,Accessories,Siddharth Roy,Bangalore,9873062386,IN,Debit Card,4715.06,2,2025-03-25,contact@yahoo.com
+ORD0411,PRD005,Running Shoes,Footwear,Rahul Verma,Bangalore,7337515606,IN,Net Banking,3536.31,2,2025-03-03,user@gmail.com
+ORD0440,PRD004,Face Serum,Beauty,Ananya Iyer,Delhi,7199145996,IN,Credit Card,1101.18,2,2024-08-12,support@outlook.com
+ORD0022,PRD001,Cotton Kurti,Apparel,Kavya Menon,Chennai,6833240321,IN,Debit Card,9712.94,5,2024-10-21,info@hotmail.com
+ORD0049,PRD005,Running Shoes,Footwear,Aisha Khan,Hyderabad,8585241657,IN,Credit Card,4533.2,4,2024-09-24,user@gmail.com
+ORD0444,PRD010,Smart Watch,Electronics,Vikram Singh,Chennai,8605796708,IN,,-969.85,2,2024-04-08,support@outlook.com
+ORD0176,PRD007,Laptop Bag,Accessories,Karan Mehta,Ahmedabad,6664519148,IN,Debit Card,1353.95,1,2024-10-25,test@domain.co.in
+ORD0008,PRD007,Laptop Bag,Accessories,Aditya Saxena,Bangalore,9172065615,IN,Debit Card,9424.25,4,2024-01-29,contact@yahoo.com
+ORD0279,PRD003,Yoga Mat,Sports,Karan Mehta,Pune,9762951429,IN,Net Banking,6149.6,4,2025-02-08,info@hotmail.com
+ORD0476,PRD010,Smart Watch,Electronics,Priya Patel,Mumbai,6342653962,IN,Wallet,1931.92,3,2025-02-11,contact@yahoo.com
+ORD0299,PRD010,Smart Watch,Electronics,Arjun Nair,Ahmedabad,8884680000,IN,UPI,3950.82,3,2024-01-05,hello@company.in
+ORD0223,PRD009,Silk Saree,Apparel,Riya Chopra,Chennai,7533616647,IN,Debit Card,8923.7,4,2024-05-11,test@domain.co.in
+ORD0186,PRD005,Running Shoes,Footwear,Divya Joshi,Bangalore,7611939904,IN,Debit Card,891.2,2,2024-12-20,test@domain.co.in
+ORD0289,PRD009,Silk Saree,Apparel,Manish Tiwari,Chennai,203026,IN,Wallet,3219.97,4,2024-10-21,user@gmail.com
+ORD0132,PRD003,Yoga Mat,Sports,Karan Mehta,Kolkata,9557275156,IN,Debit Card,8133.85,1,2025-03-31,user@gmail.com
+ORD0311,PRD006,Stainless Steel Bottle,Kitchen,Amit Kumar,Pune,7763708321,IN,Cash,7399.32,3,2025-03-01,hello@company.in
+ORD0283,PRD004,Face Serum,Beauty,Ritika Bose,Pune,7616194608,IN,Debit Card,404.21,4,2024-09-11,support@outlook.com
+ORD0443,PRD009,Silk Saree,Apparel,Priya Patel,Hyderabad,7604032908,IN,Wallet,4255.18,2,2024-01-07,user@gmail.com
+ORD0368,PRD002,Wireless Earbuds,Electronics,Rohit Sharma,Ahmedabad,7682450593,IN,Wallet,4764.98,4,2025-03-20,contact@yahoo.com
+ORD0237,PRD005,Running Shoes,Footwear,Sana Mirza,Mumbai,,IN,Net Banking,2231.69,1,2025-02-09,contact@yahoo.com
+ORD0273,PRD005,Running Shoes,Footwear,Divya Joshi,Delhi,9807580664,IN,Cash,382.93,5,2024-04-21,contact@yahoo.com
+ORD0432,PRD006,Stainless Steel Bottle,Kitchen,Suresh Pillai,Hyderabad,7866807327,IN,Wallet,202.61,3,2024-08-18,info@hotmail.com
+ORD0331,PRD004,Face Serum,Beauty,Ananya Iyer,Mumbai,7223980361,IN,Wallet,3760.95,3,2025-01-11,info@hotmail.com
+ORD0205,PRD002,Wireless Earbuds,Electronics,Rahul Verma,Kolkata,8312160452,IN,Wallet,8960.92,4,2025-03-02,contact@yahoo.com
+ORD0361,PRD004,Face Serum,Beauty,Sunita Desai,Chennai,8566206009,IN,Credit Card,2162.04,5,2025-02-05,test@domain.co.in
+ORD0185,PRD010,Smart Watch,Electronics,Sana Mirza,Delhi,6387019,IN,Net Banking,6293.91,5,2024-10-29,user@gmail.com
+ORD0308,PRD001,Cotton Kurti,Apparel,Neha Agarwal,Pune,7353856875,IN,Cash,8099.26,4,2024-09-26,info@hotmail.com
+ORD0255,PRD001,Cotton Kurti,Apparel,Pooja Reddy,Delhi,,IN,Wallet,4703.19,1,2024-08-11,contact@yahoo.com
+ORD0424,PRD009,Silk Saree,Apparel,Karan Mehta,Hyderabad,8839909360,IN,Cash,5535.13,1,2024-06-14,support@outlook.com
+ORD0101,PRD002,Wireless Earbuds,Electronics,Rahul Verma,Delhi,6015173518,IN,,9528.81,3,2024-12-19,test@domain.co.in
+ORD0209,PRD001,Cotton Kurti,Apparel,Riya Chopra,Bangalore,8107064965,IN,,7461.27,1,2025-03-13,info@hotmail.com
+ORD0246,PRD001,Cotton Kurti,Apparel,Shreya Das,Delhi,8458206657,IN,Credit Card,7022.92,5,2024-02-18,hello@company.in
+ORD0334,PRD006,Stainless Steel Bottle,Kitchen,Gaurav Malhotra,Chennai,,IN,Debit Card,4563.69,1,2024-06-28,user@gmail.com
+ORD0453,PRD009,Silk Saree,Apparel,Sana Mirza,Chennai,9290639902,IN,Credit Card,5162.67,5,2024-12-21,user@gmail.com
+ORD0393,PRD002,Wireless Earbuds,Electronics,Deepa Nambiar,Chennai,9403077744,IN,UPI,2195.27,5,2025-02-05,support@outlook.com
+ORD0028,PRD007,Laptop Bag,Accessories,Priya Patel,Mumbai,6680824172,IN,Debit Card,5210.09,5,2025-01-21,info@hotmail.com
+ORD0086,PRD006,Stainless Steel Bottle,Kitchen,Sunita Desai,Bangalore,7713441918,IN,Debit Card,5753.54,5,2024-01-25,hello@company.in
+ORD0430,PRD009,Silk Saree,Apparel,Riya Chopra,Hyderabad,5559694,IN,Debit Card,8994.63,1,2024-07-28,test@domain.co.in
+ORD0193,,Protein Powder,Health,Karan Mehta,Mumbai,9981567296,IN,Wallet,7468.04,4,2024-02-18,test@domain.co.in
+ORD0382,PRD003,Yoga Mat,Sports,Sneha Gupta,Hyderabad,8610807999,IN,Debit Card,1987.69,5,2024-08-10,contact@yahoo.com
+ORD0038,PRD010,Smart Watch,Electronics,Aarav Shah,Hyderabad,6263159619,IN,Credit Card,9024.59,2,2024-11-18,info@hotmail.com
+ORD0118,PRD005,Running Shoes,Footwear,Nikhil Rao,Ahmedabad,9229721334,IN,Credit Card,5683.36,4,2024-10-02,info@hotmail.com
+ORD0350,PRD003,Yoga Mat,Sports,Pooja Reddy,Ahmedabad,7565933083,IN,Debit Card,9066.16,1,2024-09-20,info@hotmail.com
+ORD0463,PRD002,Wireless Earbuds,Electronics,Vivek Pandey,Mumbai,6157121115,IN,Credit Card,2440.44,4,2024-02-15,info@hotmail.com
+ORD0485,,Running Shoes,Footwear,Riya Chopra,Chennai,7942571685,IN,Cash,7857.49,3,2024-02-03,missing@
+ORD0397,PRD008,Protein Powder,Health,Sunita Desai,Kolkata,9721822456,IN,Net Banking,1864.49,4,2025-03-04,contact@yahoo.com
+ORD0422,PRD010,Smart Watch,Electronics,Ananya Iyer,Bangalore,6879970767,IN,,-440.04,5,2024-04-07,user@gmail.com
+ORD0415,PRD004,Face Serum,Beauty,Shreya Das,Pune,6707299006,IN,Credit Card,5322.14,3,2024-02-03,test@domain.co.in
+ORD0190,PRD001,Cotton Kurti,Apparel,Sneha Gupta,Chennai,8597785064,IN,Credit Card,7501.64,2,2024-11-03,support@outlook.com
+ORD0286,PRD002,Wireless Earbuds,Electronics,Aarav Shah,Delhi,7755425717,IN,Credit Card,2378.43,1,2024-10-27,support@outlook.com
+ORD0374,PRD008,Protein Powder,Health,Vikram Singh,Bangalore,8568135626,IN,UPI,744.63,2,2024-08-21,double@@test.com
+ORD0373,PRD010,Smart Watch,Electronics,Aarav Shah,Kolkata,3832681,IN,Debit Card,401.54,4,21-05-2024,info@hotmail.com
+ORD0337,PRD010,Smart Watch,Electronics,Kavya Menon,Chennai,8000609148,IN,Wallet,8328.51,3,2024-02-12,notanemail
+ORD0354,PRD006,Stainless Steel Bottle,Kitchen,Sneha Gupta,Bangalore,8902263856,IN,Cash,4633.99,4,2025-02-11,contact@yahoo.com
+ORD0378,PRD004,Face Serum,Beauty,Shreya Das,Chennai,6687717131,IN,Debit Card,6675.38,3,2024-07-18,support@outlook.com
+ORD0076,PRD002,Wireless Earbuds,Electronics,Sana Mirza,Pune,8300395218,IN,Net Banking,9577.16,3,2025-02-01,test@domain.co.in
+ORD0295,PRD008,Protein Powder,Health,Priya Patel,Hyderabad,6749572251,IN,Debit Card,7511.01,1,2024-07-14,hello@company.in
+ORD0002,PRD009,Silk Saree,Apparel,Deepa Nambiar,Delhi,8527189548,IN,Net Banking,-98.8,4,2025-01-04,hello@company.in
+ORD0409,PRD003,Yoga Mat,Sports,Karan Mehta,Delhi,6810689335,IN,Debit Card,8293.85,4,14/02/2025,info@hotmail.com
+ORD0105,PRD001,Cotton Kurti,Apparel,Riya Chopra,Pune,9407260940,IN,,2067.55,3,2024-09-11,test@domain.co.in
+ORD0388,PRD008,Protein Powder,Health,Neha Agarwal,Chennai,9312310490,IN,UPI,8929.84,1,2024-12-05,hello@company.in
+ORD0340,PRD009,Silk Saree,Apparel,Siddharth Roy,Bangalore,6585113008,IN,Debit Card,871.77,3,2024-07-15,contact@yahoo.com
+ORD0417,PRD005,Running Shoes,Footwear,Rajesh Kulkarni,Pune,7401846466,IN,Cash,8420.63,1,2024-07-31,hello@company.in
+ORD0442,PRD008,Protein Powder,Health,Sunita Desai,Chennai,6877910312,IN,Wallet,9078.09,1,2024-11-28,info@hotmail.com
+ORD0376,PRD008,Protein Powder,Health,Vikram Singh,Pune,8153889368,IN,Net Banking,6981.97,4,2024-02-22,hello@company.in
+ORD0319,PRD005,Running Shoes,Footwear,Manish Tiwari,Delhi,8689568740,IN,Debit Card,6580.76,4,2024-12-09,hello@company.in
+ORD0184,PRD001,Cotton Kurti,Apparel,Ananya Iyer,Chennai,6245643652,IN,Credit Card,5787.28,4,2025-02-04,user@gmail.com
+ORD0284,PRD003,Yoga Mat,Sports,Riya Chopra,Delhi,9195634307,IN,Wallet,3971.85,5,2024-06-28,user@gmail.com
+ORD0490,PRD003,Yoga Mat,Sports,Rahul Verma,Bangalore,9332453091,IN,Debit Card,8453.45,5,2024-03-03,hello@company.in
+ORD0435,PRD008,Protein Powder,Health,Neha Agarwal,Ahmedabad,7214191690,IN,Wallet,6181.91,2,2024-05-29,contact@yahoo.com
+ORD0003,PRD006,Stainless Steel Bottle,Kitchen,Aditya Saxena,Kolkata,9650581304,IN,Wallet,2282.39,4,2024-12-04,contact@yahoo.com
+ORD0315,PRD007,Laptop Bag,Accessories,Nikhil Rao,Kolkata,7701508277,IN,Cash,8194.68,3,2024-09-06,user@gmail.com
+ORD0296,PRD004,Face Serum,Beauty,Shreya Das,Pune,6879234122,IN,,5052.02,5,2024-09-18,info@hotmail.com
+ORD0242,PRD007,Laptop Bag,Accessories,Riya Chopra,Ahmedabad,6272664075,IN,Wallet,9823.58,1,2024-02-14,user@gmail.com
+ORD0414,PRD007,Laptop Bag,Accessories,Arjun Nair,Mumbai,8584908,IN,UPI,2262.99,2,21-06-2024,support@outlook.com
+ORD0115,PRD007,Laptop Bag,Accessories,Sunita Desai,Hyderabad,9401943272,IN,UPI,529.22,4,2025-02-15,user@gmail.com
+ORD0070,PRD009,Silk Saree,Apparel,Siddharth Roy,Pune,9944865378,IN,Net Banking,-222.24,4,2024-05-12,user@gmail.com
+ORD0469,PRD006,Stainless Steel Bottle,Kitchen,Kavya Menon,Delhi,6129896051,IN,Debit Card,5555.11,5,2024-04-10,info@hotmail.com
+ORD0325,PRD002,Wireless Earbuds,Electronics,Sneha Gupta,Ahmedabad,6714803659,IN,Net Banking,9832.39,2,2024-08-17,test@domain.co.in
+ORD0147,PRD003,Yoga Mat,Sports,Suresh Pillai,Bangalore,7642104279,IN,UPI,2721.73,3,2024-08-28,contact@yahoo.com
+ORD0178,PRD010,Smart Watch,Electronics,Aarav Shah,Mumbai,8826824581,IN,Cash,3892.18,3,2024-11-01,info@hotmail.com
+ORD0292,,Running Shoes,Footwear,Arjun Nair,Delhi,923565,IN,Wallet,1201.94,5,07/28/2024,contact@yahoo.com
+ORD0230,PRD001,Cotton Kurti,Apparel,Divya Joshi,Bangalore,8141065894,IN,Net Banking,5056.57,3,2024-03-31,user@gmail.com
+ORD0081,PRD006,Stainless Steel Bottle,Kitchen,Rajesh Kulkarni,Bangalore,8303265774,IN,Wallet,9223.65,3,2024-10-21,info@hotmail.com
+ORD0459,PRD009,Silk Saree,Apparel,Sneha Gupta,Hyderabad,9891891151,IN,,2180.63,4,2024-06-25,contact@yahoo.com
+ORD0129,,Wireless Earbuds,Electronics,Rajesh Kulkarni,Mumbai,690101,IN,Wallet,9525.17,2,04/16/2024,contact@yahoo.com
+ORD0401,PRD006,Stainless Steel Bottle,Kitchen,Karan Mehta,Bangalore,8356933731,IN,Debit Card,1485.3,5,2025-03-13,@nodomain.com
+ORD0144,PRD007,Laptop Bag,Accessories,Priya Patel,Hyderabad,6930374134,IN,,8731.7,4,2024-09-28,contact@yahoo.com
+ORD0121,PRD010,Smart Watch,Electronics,Priya Patel,Delhi,7551526245,IN,Net Banking,2137.29,5,20/03/2024,info@hotmail.com
+ORD0254,PRD001,Cotton Kurti,Apparel,Sunita Desai,Hyderabad,7337031886,IN,Cash,8079.22,1,2025-02-14,@nodomain.com
+ORD0182,PRD009,Silk Saree,Apparel,Arjun Nair,Mumbai,8599489270,IN,UPI,3490.25,2,2024-07-02,test@domain.co.in
+ORD0487,PRD002,Wireless Earbuds,Electronics,Manish Tiwari,Delhi,8947838623,IN,Wallet,3065.33,1,2024-01-15,contact@yahoo.com
+ORD0380,PRD007,Laptop Bag,Accessories,Sana Mirza,Bangalore,6176384060,IN,Credit Card,2939.49,2,2024-08-01,test@domain.co.in
+ORD0494,PRD006,Stainless Steel Bottle,Kitchen,Aarav Shah,Ahmedabad,6281313029,IN,UPI,8654.99,3,2024-09-18,spaces in@email.com
+ORD0053,PRD003,Yoga Mat,Sports,Riya Chopra,Kolkata,,IN,Credit Card,4347.99,5,2024-10-23,user@gmail.com
+ORD0481,PRD006,Stainless Steel Bottle,Kitchen,Amit Kumar,Ahmedabad,7148733029,IN,Cash,3333.01,3,2024-04-09,support@outlook.com
+ORD0228,PRD006,Stainless Steel Bottle,Kitchen,Rahul Verma,Ahmedabad,6317013563,IN,Net Banking,8896.71,2,2024-11-09,user@gmail.com
+ORD0352,PRD001,Cotton Kurti,Apparel,Deepa Nambiar,Chennai,9489788501,IN,Wallet,8126.19,1,2024-09-14,info@hotmail.com
+ORD0140,PRD003,Yoga Mat,Sports,Aarav Shah,Pune,7059055241,IN,Net Banking,3345.2,3,2024-07-05,user@gmail.com
+ORD0450,PRD008,Protein Powder,Health,Suresh Pillai,Delhi,8317212536,IN,Net Banking,1022.85,5,2025-01-18,contact@yahoo.com
+ORD0280,PRD008,Protein Powder,Health,Sana Mirza,Hyderabad,8406630,IN,Cash,4093.91,1,2024-12-20,hello@company.in
+ORD0316,PRD001,Cotton Kurti,Apparel,Amit Kumar,Ahmedabad,6217479753,IN,UPI,6955.16,5,2024-06-18,hello@company.in
+ORD0026,PRD008,Protein Powder,Health,Nikhil Rao,Mumbai,8813986875,IN,UPI,3430.51,4,2024-02-06,info@hotmail.com
+ORD0051,PRD006,Stainless Steel Bottle,Kitchen,Nikhil Rao,Hyderabad,9329213015,IN,Net Banking,-409.15,1,2024-05-26,support@outlook.com
+ORD0087,PRD010,Smart Watch,Electronics,Vikram Singh,Ahmedabad,8284794143,IN,Credit Card,5100.35,4,2024-06-18,support@outlook.com
+ORD0225,PRD002,Wireless Earbuds,Electronics,Meera Bhatt,Bangalore,7762605978,IN,Net Banking,4548.43,1,2024-11-04,user@gmail.com
+ORD0117,PRD004,Face Serum,Beauty,Aditya Saxena,Mumbai,7163427939,IN,Wallet,6245.9,5,2024-08-20,hello@company.in
+ORD0336,PRD009,Silk Saree,Apparel,Riya Chopra,Pune,6956332273,IN,Debit Card,5898.96,3,2024-09-06,test@domain.co.in
+ORD0136,PRD002,Wireless Earbuds,Electronics,Aisha Khan,Mumbai,8911961726,IN,Credit Card,5008.49,5,2024-01-11,support@outlook.com
+ORD0111,PRD004,Face Serum,Beauty,Sneha Gupta,Mumbai,9bbaaa1c1c,IN,Credit Card,505.83,2,2024-05-19,support@outlook.com
+ORD0030,PRD009,Silk Saree,Apparel,Sana Mirza,Hyderabad,6349880946,IN,Net Banking,1900.67,3,2024-11-30,hello@company.in
+ORD0045,PRD009,Silk Saree,Apparel,Arjun Nair,Hyderabad,6606175943,IN,Cash,745.4,1,2024-06-30,contact@yahoo.com
+ORD0271,PRD006,Stainless Steel Bottle,Kitchen,Sneha Gupta,Delhi,9807839670,IN,Net Banking,3120.56,4,2024-02-17,hello@company.in
+ORD0437,PRD004,Face Serum,Beauty,Deepa Nambiar,Pune,7187475342,IN,UPI,1746.89,1,2025-02-20,user@gmail.com
+ORD0091,PRD007,Laptop Bag,Accessories,Rahul Verma,Chennai,8442590888,IN,Wallet,9614.93,5,2024-03-14,support@outlook.com
+ORD0138,PRD009,Silk Saree,Apparel,Suresh Pillai,Kolkata,8792550595,IN,Credit Card,1575.64,2,2024-06-09,support@outlook.com
+ORD0353,PRD004,Face Serum,Beauty,Sana Mirza,Ahmedabad,6949711285,IN,Wallet,4764.06,3,2025-03-19,info@hotmail.com
+ORD0282,PRD003,Yoga Mat,Sports,Neha Agarwal,Hyderabad,9647201399,IN,Debit Card,3980.15,5,2024-05-30,test@domain.co.in
+ORD0273,PRD005,Running Shoes,Footwear,Divya Joshi,Delhi,9807580664,IN,Cash,382.93,5,2024-04-21,contact@yahoo.com
+ORD0104,PRD006,Stainless Steel Bottle,Kitchen,Pooja Reddy,Hyderabad,7703405199,IN,,8408.92,5,2024-05-08,hello@company.in
+ORD0180,PRD008,Protein Powder,Health,Aarav Shah,Chennai,6137838302,IN,UPI,9986.79,1,2024-07-20,contact@yahoo.com
+ORD0457,PRD005,Running Shoes,Footwear,Rahul Verma,Hyderabad,8826514005,IN,Net Banking,9423.85,2,2025-03-08,info@hotmail.com
+ORD0222,PRD007,Laptop Bag,Accessories,Riya Chopra,Ahmedabad,8379005192,IN,UPI,7667.93,4,2024-04-28,double@@test.com
+ORD0478,PRD003,Yoga Mat,Sports,Rahul Verma,Chennai,7482366409,IN,UPI,7937.6,3,2024-07-01,hello@company.in
+ORD0288,PRD007,Laptop Bag,Accessories,Vikram Singh,Bangalore,9591089649,IN,Net Banking,5175.72,5,2024-04-13,test@domain.co.in
+ORD0358,PRD003,Yoga Mat,Sports,Deepa Nambiar,Bangalore,2622991,IN,Debit Card,2894.41,3,2024-12-12,contact@yahoo.com
+ORD0253,PRD005,Running Shoes,Footwear,Rajesh Kulkarni,Bangalore,9061990210,IN,Cash,1770.81,5,2025-01-22,contact@yahoo.com
+ORD0064,PRD008,Protein Powder,Health,Suresh Pillai,Chennai,5554061,IN,Cash,5513.16,3,2024-04-21,info@hotmail.com
+ORD0214,PRD004,Face Serum,Beauty,Aditya Saxena,Hyderabad,7269883686,IN,Debit Card,2040.88,5,2025-03-31,user@gmail.com
+ORD0131,PRD001,Cotton Kurti,Apparel,Ananya Iyer,Hyderabad,7876692218,IN,Net Banking,1048.53,4,2024-04-04,hello@company.in
+ORD0270,PRD002,Wireless Earbuds,Electronics,Ananya Iyer,Kolkata,6462509574,IN,Net Banking,4243.88,1,2024-12-21,hello@company.in
+ORD0042,PRD009,Silk Saree,Apparel,Rohit Sharma,Hyderabad,,IN,Debit Card,3374.55,5,2024-06-20,support@outlook.com
+ORD0059,PRD003,Yoga Mat,Sports,Amit Kumar,Chennai,6987642830,IN,Credit Card,2064.18,5,2024-03-06,hello@company.in
+ORD0307,PRD006,Stainless Steel Bottle,Kitchen,Ananya Iyer,Mumbai,9489066314,IN,Debit Card,508.07,4,2025-02-27,hello@company.in
+ORD0438,PRD007,Laptop Bag,Accessories,Sana Mirza,Pune,6196554623,IN,Debit Card,2204.12,4,2024-03-05,support@outlook.com
+ORD0108,PRD010,Smart Watch,Electronics,Rohit Sharma,Bangalore,7651276364,IN,UPI,6442.52,2,2024-06-11,support@outlook.com
+ORD0390,PRD008,Protein Powder,Health,Nikhil Rao,Chennai,7456808792,IN,Debit Card,8776.36,4,2024-05-17,support@outlook.com
+ORD0025,PRD007,Laptop Bag,Accessories,Ananya Iyer,Ahmedabad,6321028921,IN,Net Banking,8949.71,4,2024-12-06,contact@yahoo.com
+ORD0258,PRD001,Cotton Kurti,Apparel,Gaurav Malhotra,Pune,9902626077,IN,Wallet,6450.19,2,2024-02-04,support@outlook.com
+ORD0213,PRD007,Laptop Bag,Accessories,Aarav Shah,Ahmedabad,9513734914,IN,UPI,3133.67,1,2024-08-24,user@gmail.com
+ORD0484,PRD002,Wireless Earbuds,Electronics,Riya Chopra,Bangalore,9516101462,IN,Cash,4395.17,3,2024-05-28,support@outlook.com
+ORD0080,PRD001,Cotton Kurti,Apparel,Deepa Nambiar,Hyderabad,9282571057,IN,Net Banking,4054.84,3,20/10/2024,support@outlook.com
+ORD0256,PRD003,Yoga Mat,Sports,Manish Tiwari,Mumbai,9426243396,IN,Cash,9273.09,1,2024-02-03,info@hotmail.com
+ORD0166,PRD009,Silk Saree,Apparel,Vikram Singh,Pune,7135441806,IN,Credit Card,5872.79,5,2024-08-02,test@domain.co.in
+ORD0345,PRD004,Face Serum,Beauty,Ananya Iyer,Kolkata,8058210426,IN,Credit Card,8931.08,5,2024-11-01,user@gmail.com
+ORD0001,PRD007,Laptop Bag,Accessories,Siddharth Roy,Hyderabad,7078685359,IN,Net Banking,1951.26,2,2024-03-09,user@gmail.com
+ORD0266,PRD007,Laptop Bag,Accessories,Vivek Pandey,Pune,7939729611,IN,Wallet,1760.63,4,20/10/2024,user@gmail.com
+ORD0079,PRD003,Yoga Mat,Sports,Riya Chopra,Ahmedabad,1048534,IN,Debit Card,8375.41,1,2025-01-29,test@domain.co.in
+ORD0127,PRD008,Protein Powder,Health,Sneha Gupta,Kolkata,9767966643,IN,Debit Card,6715.14,4,2025-02-01,hello@company.in
+ORD0433,PRD007,Laptop Bag,Accessories,Divya Joshi,Delhi,8617388747,IN,Wallet,2691.53,3,2024-03-06,support@outlook.com
+ORD0211,PRD002,Wireless Earbuds,Electronics,Priya Patel,Delhi,9654711747,IN,Debit Card,-311.69,5,2024-03-27,test@domain.co.in
+ORD0348,PRD006,Stainless Steel Bottle,Kitchen,Kavya Menon,Chennai,7677996882,IN,Debit Card,703.68,1,2024-10-26,contact@yahoo.com
+ORD0407,PRD009,Silk Saree,Apparel,Shreya Das,Kolkata,7946550814,IN,Debit Card,7884.11,4,2024-01-21,support@outlook.com
+ORD0408,,Laptop Bag,Accessories,Sunita Desai,Mumbai,6415668646,IN,Wallet,9060.24,3,2025-03-20,missing@
+ORD0229,PRD007,Laptop Bag,Accessories,Rahul Verma,Chennai,7164464149,IN,Credit Card,215.6,3,2024-04-25,user@gmail.com
+ORD0113,PRD006,Stainless Steel Bottle,Kitchen,Sana Mirza,Delhi,3730924,IN,Debit Card,1904.97,3,2024-12-03,info@hotmail.com
+ORD0092,PRD003,Yoga Mat,Sports,Ritika Bose,Ahmedabad,8558887020,IN,Cash,1995.23,5,2024-09-06,hello@company.in
+ORD0372,PRD006,Stainless Steel Bottle,Kitchen,Neha Agarwal,Chennai,7162514783,IN,,1730.54,4,2024-02-21,support@outlook.com
+ORD0010,PRD003,Yoga Mat,Sports,Kavya Menon,Bangalore,9427236164,IN,Credit Card,8827.22,3,2025-01-29,@nodomain.com
+ORD0100,,Stainless Steel Bottle,Kitchen,Suresh Pillai,Chennai,6123186935,IN,Wallet,4903.96,4,2024-01-08,spaces in@email.com
+ORD0402,PRD010,Smart Watch,Electronics,Rajesh Kulkarni,Hyderabad,6427255387,IN,Debit Card,3337.24,4,2024-10-06,support@outlook.com
+ORD0472,PRD001,Cotton Kurti,Apparel,Sneha Gupta,Hyderabad,8655122490,IN,Wallet,3328.87,3,2024-10-06,hello@company.in
+ORD0439,PRD006,Stainless Steel Bottle,Kitchen,Rajesh Kulkarni,Bangalore,9802574090,IN,UPI,1350.18,3,2024-07-23,info@hotmail.com
+ORD0050,PRD002,Wireless Earbuds,Electronics,Vivek Pandey,Kolkata,7896488070,IN,UPI,7428.53,3,2024-09-10,test@domain.co.in
+ORD0475,PRD007,Laptop Bag,Accessories,Neha Agarwal,Delhi,8214039213,IN,Debit Card,2920.56,3,2024-09-03,info@hotmail.com
+ORD0364,PRD006,Stainless Steel Bottle,Kitchen,Sana Mirza,Pune,9879105995,IN,UPI,3747.32,3,2024-06-08,hello@company.in
+ORD0241,PRD001,Cotton Kurti,Apparel,Shreya Das,Hyderabad,7944189881,IN,UPI,8339.05,1,2025-02-27,user@gmail.com
+ORD0421,PRD009,Silk Saree,Apparel,Deepa Nambiar,Kolkata,8946163243,IN,,6660.74,5,2024-08-22,test@domain.co.in
+ORD0396,PRD001,Cotton Kurti,Apparel,Ananya Iyer,Mumbai,8400972261,IN,Debit Card,2068.06,4,2024-08-11,support@outlook.com
+ORD0259,PRD007,Laptop Bag,Accessories,Pooja Reddy,Pune,8039526886,IN,Wallet,8327.98,4,2024-04-01,user@gmail.com
+ORD0262,PRD001,Cotton Kurti,Apparel,Pooja Reddy,Ahmedabad,6031147347,IN,Wallet,5674.59,4,2025-02-06,test@domain.co.in
+ORD0480,PRD009,Silk Saree,Apparel,Riya Chopra,Mumbai,8760491484,IN,UPI,3020.96,3,2024-03-29,hello@company.in
+ORD0418,PRD008,Protein Powder,Health,Sana Mirza,Mumbai,7241619166,IN,Wallet,291.91,2,2025-01-05,support@outlook.com
+ORD0063,PRD004,Face Serum,Beauty,Rohit Sharma,Delhi,7437860906,IN,Debit Card,445.39,2,2024-06-01,support@outlook.com
+ORD0303,,Silk Saree,Apparel,Nikhil Rao,Pune,7828355462,IN,Credit Card,8554.84,5,2024-10-28,spaces in@email.com
+ORD0016,PRD006,Stainless Steel Bottle,Kitchen,Meera Bhatt,Ahmedabad,7758069520,IN,Net Banking,1446.35,3,2024-08-08,info@hotmail.com
+ORD0096,PRD001,Cotton Kurti,Apparel,Neha Agarwal,Mumbai,8591340891,IN,UPI,7715.58,1,2024-04-08,contact@yahoo.com
+ORD0413,PRD006,Stainless Steel Bottle,Kitchen,Rahul Verma,Delhi,9103747142,IN,Debit Card,3263.7,1,2024-04-06,contact@yahoo.com
+ORD0130,PRD004,Face Serum,Beauty,Manish Tiwari,Ahmedabad,7985340915,IN,UPI,3227.29,4,2025-02-23,test@domain.co.in
+ORD0071,PRD003,Yoga Mat,Sports,Rohit Sharma,Chennai,7346098237,IN,Wallet,1165.32,1,2024-07-07,support@outlook.com
+ORD0102,PRD006,Stainless Steel Bottle,Kitchen,Neha Agarwal,Pune,7675516707,IN,,2840.93,3,2025-01-15,info@hotmail.com
+ORD0406,,Running Shoes,Footwear,Manish Tiwari,Bangalore,7029476542,IN,Credit Card,9313.01,1,2024-04-17,notanemail
+ORD0312,PRD006,Stainless Steel Bottle,Kitchen,Ritika Bose,Hyderabad,8127068522,IN,Net Banking,9756.75,4,2024-04-26,hello@company.in
+ORD0018,,Face Serum,Beauty,Siddharth Roy,Pune,9652680161,IN,Credit Card,3583.75,3,2024-12-21,info@hotmail.com
+ORD0035,PRD003,Yoga Mat,Sports,Aarav Shah,Chennai,9cyccc1a1y,IN,Net Banking,3097.17,1,2024-09-09,support@outlook.com
+ORD0043,PRD001,Cotton Kurti,Apparel,Priya Patel,Kolkata,6795073133,IN,,-77.72,1,2024-12-05,info@hotmail.com
+ORD0291,PRD006,Stainless Steel Bottle,Kitchen,Rohit Sharma,Delhi,8571257643,IN,Wallet,1272.39,4,2025-03-19,contact@yahoo.com
+ORD0099,PRD004,Face Serum,Beauty,Meera Bhatt,Kolkata,9038970701,IN,Debit Card,7760.99,3,2024-06-23,contact@yahoo.com
+ORD0235,PRD003,Yoga Mat,Sports,Divya Joshi,Hyderabad,,IN,Net Banking,4929.97,3,2024-01-19,info@hotmail.com
+ORD0007,PRD002,Wireless Earbuds,Electronics,Aarav Shah,Bangalore,9cacyb1abc,IN,Cash,6900.87,4,2024-02-11,support@outlook.com
+ORD0379,PRD007,Laptop Bag,Accessories,Suresh Pillai,Ahmedabad,6993413983,IN,Credit Card,6263.34,4,2024-12-30,test@domain.co.in
+ORD0110,PRD004,Face Serum,Beauty,Amit Kumar,Hyderabad,8006078155,IN,Debit Card,5281.09,2,2025-03-23,info@hotmail.com
+ORD0074,PRD003,Yoga Mat,Sports,Arjun Nair,Chennai,6126203834,IN,Cash,7476.93,1,2025-03-04,info@hotmail.com
+ORD0257,PRD001,Cotton Kurti,Apparel,Siddharth Roy,Mumbai,,IN,Net Banking,6914.74,2,2024-05-13,contact@yahoo.com
+ORD0040,PRD002,Wireless Earbuds,Electronics,Kavya Menon,Hyderabad,7101782397,IN,,1518.22,2,2024-03-29,test@domain.co.in
+ORD0387,PRD006,Stainless Steel Bottle,Kitchen,Sunita Desai,Delhi,7369715166,IN,Wallet,3624.48,2,2025-03-22,info@hotmail.com
+ORD0261,PRD005,Running Shoes,Footwear,Nikhil Rao,Kolkata,,IN,Net Banking,8599.64,3,2024-10-13,contact@yahoo.com
+ORD0322,PRD004,Face Serum,Beauty,Arjun Nair,Pune,9552279518,IN,Net Banking,977.47,5,2024-10-14,hello@company.in
+ORD0004,PRD002,Wireless Earbuds,Electronics,Rajesh Kulkarni,Delhi,6032726782,IN,Cash,3299.51,1,2024-05-17,hello@company.in
+ORD0398,PRD005,Running Shoes,Footwear,Aisha Khan,Chennai,9323993859,IN,Debit Card,3435.4,5,2024-10-28,support@outlook.com
+ORD0363,PRD002,Wireless Earbuds,Electronics,Ritika Bose,Delhi,6835558517,IN,UPI,945.97,5,2025-01-06,user@gmail.com
+ORD0221,PRD005,Running Shoes,Footwear,Manish Tiwari,Hyderabad,6207706968,IN,Credit Card,2687.22,5,2025-01-13,support@outlook.com
+ORD0153,PRD009,Silk Saree,Apparel,Rohit Sharma,Kolkata,6957366326,IN,Net Banking,1234.05,5,10/03/2024,support@outlook.com
+ORD0041,PRD009,Silk Saree,Apparel,Deepa Nambiar,Delhi,7808169282,IN,Credit Card,2555.95,2,2024-12-17,test@domain.co.in
+ORD0265,PRD010,Smart Watch,Electronics,Arjun Nair,Bangalore,9075824422,IN,Wallet,705.83,3,2024-12-02,test@domain.co.in
+ORD0458,PRD004,Face Serum,Beauty,Vikram Singh,Hyderabad,8949235414,IN,UPI,7503.97,3,2025-01-09,double@@test.com
+ORD0249,PRD010,Smart Watch,Electronics,Karan Mehta,Ahmedabad,6308488162,IN,Wallet,7840.07,4,2024-06-01,contact@yahoo.com
+ORD0344,PRD007,Laptop Bag,Accessories,Ananya Iyer,Ahmedabad,6219861,IN,UPI,9103.66,4,2024-05-14,user@gmail.com
+ORD0247,PRD006,Stainless Steel Bottle,Kitchen,Neha Agarwal,Ahmedabad,6623203974,IN,UPI,7568.63,2,2025-01-23,user@gmail.com
+ORD0036,PRD009,Silk Saree,Apparel,Vikram Singh,Mumbai,9870803791,IN,Debit Card,7440.7,4,2024-09-19,test@domain.co.in
+ORD0477,PRD008,Protein Powder,Health,Sunita Desai,Ahmedabad,5793759,IN,Credit Card,1612.47,5,25-01-2024,support@outlook.com
+ORD0206,PRD006,Stainless Steel Bottle,Kitchen,Ritika Bose,Bangalore,8435476600,IN,Wallet,552.65,1,2024-12-05,test@domain.co.in
+ORD0324,,Smart Watch,Electronics,Meera Bhatt,Chennai,623790,IN,UPI,1719.03,5,02/03/2025,hello@company.in
+ORD0069,PRD007,Laptop Bag,Accessories,Karan Mehta,Bangalore,7841401108,IN,UPI,1919.27,1,2024-08-31,support@outlook.com
+ORD0145,PRD008,Protein Powder,Health,Rahul Verma,Delhi,9863257077,IN,Cash,5099.82,4,2024-12-30,hello@company.in
+ORD0452,PRD010,Smart Watch,Electronics,Aarav Shah,Chennai,6222898379,IN,Net Banking,1128.02,5,2024-01-03,info@hotmail.com
+ORD0356,PRD010,Smart Watch,Electronics,Aisha Khan,Kolkata,8483224665,IN,Debit Card,2999.21,5,2024-02-04,support@outlook.com
+ORD0061,PRD007,Laptop Bag,Accessories,Manish Tiwari,Delhi,1577798,IN,UPI,4335.5,4,2024-08-22,user@gmail.com
+ORD0399,PRD003,Yoga Mat,Sports,Rohit Sharma,Chennai,7488532192,IN,Net Banking,9981.32,3,2024-05-17,contact@yahoo.com
+ORD0464,PRD005,Running Shoes,Footwear,Pooja Reddy,Kolkata,8564115824,IN,Credit Card,6524.71,2,2024-12-21,user@gmail.com
+ORD0125,PRD007,Laptop Bag,Accessories,Vivek Pandey,Bangalore,7671289939,IN,Net Banking,5458.45,5,2024-02-16,contact@yahoo.com
+ORD0160,PRD010,Smart Watch,Electronics,Rahul Verma,Hyderabad,6207131546,IN,Credit Card,2428.15,4,2024-03-29,contact@yahoo.com
+ORD0479,PRD002,Wireless Earbuds,Electronics,Divya Joshi,Pune,7391523541,IN,Credit Card,5864.14,3,2024-01-25,test@domain.co.in
+ORD0234,PRD010,Smart Watch,Electronics,Meera Bhatt,Delhi,9684012399,IN,Credit Card,5205.04,2,2024-06-29,info@hotmail.com
+ORD0386,PRD006,Stainless Steel Bottle,Kitchen,Kavya Menon,Bangalore,8135697,IN,Credit Card,7538.61,2,2024-01-30,test@domain.co.in
+ORD0141,PRD008,Protein Powder,Health,Neha Agarwal,Kolkata,5426114,IN,Wallet,7458.31,1,2024-02-07,hello@company.in
+ORD0155,PRD010,Smart Watch,Electronics,Vivek Pandey,Ahmedabad,9823262144,IN,Wallet,2031.31,5,2024-10-26,info@hotmail.com
+ORD0384,PRD007,Laptop Bag,Accessories,Sana Mirza,Bangalore,7783098043,IN,Debit Card,3574.42,1,2024-02-15,info@hotmail.com
+ORD0196,PRD001,Cotton Kurti,Apparel,Shreya Das,Hyderabad,8280471598,IN,Cash,2610.9,1,2024-08-23,contact@yahoo.com
+ORD0021,PRD007,Laptop Bag,Accessories,Amit Kumar,Chennai,6324576987,IN,Credit Card,7443.5,1,2025-02-16,info@hotmail.com
+ORD0029,,Cotton Kurti,Apparel,Rajesh Kulkarni,Kolkata,482907,IN,Credit Card,8091.47,1,02/06/2024,contact@yahoo.com
+ORD0054,PRD006,Stainless Steel Bottle,Kitchen,Karan Mehta,Hyderabad,9566350646,IN,Wallet,6472.62,1,2024-01-07,support@outlook.com
+ORD0366,PRD005,Running Shoes,Footwear,Vikram Singh,Mumbai,6798870858,IN,Debit Card,4816.43,1,2024-11-19,support@outlook.com
+ORD0347,PRD005,Running Shoes,Footwear,Ananya Iyer,Pune,8218219534,IN,Credit Card,7444.77,1,2024-03-28,hello@company.in
+ORD0471,PRD003,Yoga Mat,Sports,Deepa Nambiar,Bangalore,6694588611,IN,Cash,3852.18,5,2025-03-20,support@outlook.com
+ORD0150,PRD007,Laptop Bag,Accessories,Meera Bhatt,Kolkata,9297289137,IN,Wallet,8927.28,3,2025-03-21,contact@yahoo.com
+ORD0498,PRD001,Cotton Kurti,Apparel,Karan Mehta,Bangalore,8187169564,IN,Debit Card,7147.34,2,10/04/2024,info@hotmail.com
+ORD0171,PRD001,Cotton Kurti,Apparel,Vikram Singh,Hyderabad,9552721075,IN,Wallet,9980.08,2,2024-05-31,contact@yahoo.com
+ORD0158,PRD010,Smart Watch,Electronics,Rahul Verma,Chennai,7457155393,IN,Cash,8698.11,1,2024-10-28,user@gmail.com
+ORD0189,PRD002,Wireless Earbuds,Electronics,Vikram Singh,Chennai,6840802,IN,Cash,5367.74,5,05-03-2025,test@domain.co.in
+ORD0427,PRD008,Protein Powder,Health,Vivek Pandey,Bangalore,9130476951,IN,Debit Card,6634.95,3,2025-02-26,hello@company.in
+ORD0419,PRD002,Wireless Earbuds,Electronics,Vikram Singh,Pune,6972579915,IN,UPI,2125.09,3,2024-08-16,test@domain.co.in
+ORD0287,PRD008,Protein Powder,Health,Kavya Menon,Kolkata,108963,IN,Cash,2926.96,2,10-11-2024,support@outlook.com
+ORD0302,PRD001,Cotton Kurti,Apparel,Karan Mehta,Chennai,6535248448,IN,,-924.99,1,2024-06-05,info@hotmail.com
+ORD0375,PRD002,Wireless Earbuds,Electronics,Ananya Iyer,Hyderabad,6644261027,IN,Wallet,-497.75,2,2024-12-14,info@hotmail.com
+ORD0281,,Face Serum,Beauty,Deepa Nambiar,Kolkata,9724261494,IN,Debit Card,604.89,5,2025-02-20,missing@
+ORD0034,PRD003,Yoga Mat,Sports,Vivek Pandey,Ahmedabad,2764691,IN,Debit Card,2678.42,5,2024-01-24,hello@company.in
+ORD0084,PRD001,Cotton Kurti,Apparel,Ananya Iyer,Hyderabad,6692993878,IN,Debit Card,2705.9,4,2024-07-02,support@outlook.com
+ORD0335,,Yoga Mat,Sports,Arjun Nair,Chennai,9306385405,IN,Net Banking,5865.21,5,2024-08-29,@nodomain.com
+ORD0024,PRD007,Laptop Bag,Accessories,Kavya Menon,Bangalore,9626438291,IN,Debit Card,2650.64,3,2024-08-25,hello@company.in
+ORD0243,PRD010,Smart Watch,Electronics,Shreya Das,Chennai,7677617779,IN,Debit Card,8892.24,3,2025-03-05,info@hotmail.com
+ORD0497,PRD005,Running Shoes,Footwear,Meera Bhatt,Hyderabad,6410483265,IN,Credit Card,3457.31,3,2024-08-31,support@outlook.com
+ORD0499,PRD001,Cotton Kurti,Apparel,Ritika Bose,Kolkata,9271017325,IN,Debit Card,1084.37,3,2024-03-03,hello@company.in
+ORD0172,PRD001,Cotton Kurti,Apparel,Neha Agarwal,Pune,8731245690,IN,Debit Card,1324.78,2,2024-09-28,info@hotmail.com
+ORD0371,PRD001,Cotton Kurti,Apparel,Sunita Desai,Delhi,9592114187,IN,Credit Card,8225.26,3,2024-07-15,test@domain.co.in
+ORD0290,PRD006,Stainless Steel Bottle,Kitchen,Manish Tiwari,Hyderabad,7031818212,IN,Wallet,7005.9,4,2024-04-14,hello@company.in
+ORD0306,PRD010,Smart Watch,Electronics,Neha Agarwal,Pune,8199813738,IN,Net Banking,1057.22,1,22/01/2024,test@domain.co.in
+ORD0326,,Silk Saree,Apparel,Rajesh Kulkarni,Pune,6453450226,IN,Net Banking,1417.77,5,2024-05-03,nodot@com
+ORD0441,PRD003,Yoga Mat,Sports,Vikram Singh,Ahmedabad,7456159518,IN,UPI,9432.59,5,2024-12-31,contact@yahoo.com
+ORD0405,PRD006,Stainless Steel Bottle,Kitchen,Kavya Menon,Bangalore,8945445017,IN,Cash,1613.67,3,2024-04-26,hello@company.in
+ORD0031,PRD002,Wireless Earbuds,Electronics,Sunita Desai,Bangalore,8777178260,IN,Credit Card,1670.94,1,2024-01-17,hello@company.in
+ORD0483,PRD002,Wireless Earbuds,Electronics,Manish Tiwari,Kolkata,6304111302,IN,Wallet,7624.48,2,2024-05-25,info@hotmail.com
+ORD0089,PRD007,Laptop Bag,Accessories,Pooja Reddy,Pune,8021740140,IN,UPI,2007.58,1,2024-02-14,test@domain.co.in
+ORD0500,PRD004,Face Serum,Beauty,Aisha Khan,Mumbai,6634838912,IN,Cash,2605.36,1,2024-03-23,user@gmail.com
+ORD0163,PRD002,Wireless Earbuds,Electronics,Aisha Khan,Mumbai,6376453656,IN,Wallet,4101.87,2,2024-10-03,hello@company.in
+ORD0168,PRD008,Protein Powder,Health,Pooja Reddy,Mumbai,9599920045,IN,UPI,5708.77,5,2024-10-05,test@domain.co.in
+ORD0012,PRD006,Stainless Steel Bottle,Kitchen,Karan Mehta,Kolkata,9494765994,IN,Cash,3499.19,4,2024-07-16,support@outlook.com
+ORD0060,PRD010,Smart Watch,Electronics,Nikhil Rao,Delhi,7450665988,IN,Credit Card,5645.7,2,2024-10-20,user@gmail.com
+ORD0068,PRD003,Yoga Mat,Sports,Shreya Das,Pune,5857323,IN,Wallet,9560.46,1,2025-01-07,hello@company.in
+ORD0107,,Running Shoes,Footwear,Suresh Pillai,Pune,7066793315,IN,Net Banking,2736.01,3,2024-05-02,notanemail
+ORD0466,PRD002,Wireless Earbuds,Electronics,Pooja Reddy,Pune,9108127214,IN,Net Banking,1175.31,5,2024-09-27,contact@yahoo.com
+ORD0412,PRD003,Yoga Mat,Sports,Aarav Shah,Delhi,6441848498,IN,Credit Card,7903.78,4,2024-04-12,info@hotmail.com
+ORD0194,PRD006,Stainless Steel Bottle,Kitchen,Pooja Reddy,Kolkata,9905234068,IN,Debit Card,5114.81,2,2024-12-18,contact@yahoo.com
+ORD0204,PRD005,Running Shoes,Footwear,Gaurav Malhotra,Pune,7777968992,IN,Net Banking,9042.15,4,2024-03-10,contact@yahoo.com
+ORD0365,PRD006,Stainless Steel Bottle,Kitchen,Siddharth Roy,Ahmedabad,9yyxbzcxax,IN,UPI,316.21,2,2024-11-19,contact@yahoo.com
+ORD0369,PRD002,Wireless Earbuds,Electronics,Ananya Iyer,Ahmedabad,,IN,Wallet,1478.57,5,2025-01-21,info@hotmail.com
+ORD0410,PRD009,Silk Saree,Apparel,Divya Joshi,Bangalore,9384796410,IN,Wallet,1586.58,1,2024-12-31,contact@yahoo.com
+ORD0097,PRD004,Face Serum,Beauty,Nikhil Rao,Mumbai,7489366095,IN,Credit Card,4719.54,4,2024-06-29,info@hotmail.com
+ORD0032,PRD006,Stainless Steel Bottle,Kitchen,Riya Chopra,Hyderabad,9czbbax2za,IN,Net Banking,6160.0,5,2024-03-23,info@hotmail.com
+ORD0385,PRD001,Cotton Kurti,Apparel,Kavya Menon,Hyderabad,9650664188,IN,UPI,2026.37,2,2024-01-05,support@outlook.com
+ORD0275,PRD001,Cotton Kurti,Apparel,Shreya Das,Kolkata,8800682974,IN,Credit Card,9431.91,3,2024-06-08,test@domain.co.in
+ORD0202,PRD010,Smart Watch,Electronics,Aditya Saxena,Pune,6108042329,IN,UPI,6482.85,4,2025-02-27,support@outlook.com
+ORD0142,PRD009,Silk Saree,Apparel,Aditya Saxena,Chennai,6672946413,IN,Cash,553.31,1,2024-08-29,contact@yahoo.com
+ORD0056,,Yoga Mat,Sports,Vivek Pandey,Kolkata,7305193229,IN,Cash,6390.74,1,2024-05-17,nodot@com
+ORD0309,PRD003,Yoga Mat,Sports,Suresh Pillai,Ahmedabad,7937368027,IN,UPI,1114.88,1,29/12/2024,support@outlook.com
+ORD0148,PRD005,Running Shoes,Footwear,Sneha Gupta,Ahmedabad,6973977372,IN,Wallet,9309.15,1,2024-12-11,info@hotmail.com
+ORD0377,PRD005,Running Shoes,Footwear,Deepa Nambiar,Pune,6755860229,IN,Net Banking,9357.39,2,2024-05-25,info@hotmail.com
+ORD0301,PRD005,Running Shoes,Footwear,Vikram Singh,Ahmedabad,9628987,IN,Debit Card,406.33,1,2024-07-15,contact@yahoo.com
+ORD0342,PRD008,Protein Powder,Health,Nikhil Rao,Ahmedabad,8619346238,IN,Cash,2966.06,2,2024-11-20,support@outlook.com
+ORD0320,PRD002,Wireless Earbuds,Electronics,Rohit Sharma,Hyderabad,5250726,IN,UPI,6766.89,3,08-02-2024,hello@company.in
+ORD0489,PRD007,Laptop Bag,Accessories,Suresh Pillai,Ahmedabad,7068175261,IN,Credit Card,9782.43,5,2024-08-06,support@outlook.com
+ORD0403,PRD002,Wireless Earbuds,Electronics,Siddharth Roy,Kolkata,,IN,Credit Card,9537.55,3,2024-11-26,test@domain.co.in
+ORD0236,PRD002,Wireless Earbuds,Electronics,Sana Mirza,Bangalore,8955128351,IN,Cash,7914.17,2,2024-08-23,support@outlook.com
+ORD0451,PRD007,Laptop Bag,Accessories,Karan Mehta,Chennai,3241709,IN,Debit Card,8439.02,4,2025-01-29,contact@yahoo.com
+ORD0468,PRD004,Face Serum,Beauty,Amit Kumar,Delhi,8052474569,IN,Cash,3274.0,3,2024-04-18,hello@company.in
+ORD0362,PRD008,Protein Powder,Health,Sneha Gupta,Chennai,9axay12xbb,IN,Cash,9013.98,3,2024-07-19,support@outlook.com
+ORD0006,PRD004,Face Serum,Beauty,Sana Mirza,Bangalore,8835965429,IN,,7959.02,5,2024-03-31,hello@company.in
+ORD0267,PRD004,Face Serum,Beauty,Rohit Sharma,Pune,8834345246,IN,Cash,8152.05,4,2024-04-19,user@gmail.com
+ORD0332,PRD010,Smart Watch,Electronics,Amit Kumar,Chennai,7881731829,IN,Cash,8591.35,5,2024-04-18,support@outlook.com
+ORD0321,PRD008,Protein Powder,Health,Nikhil Rao,Ahmedabad,7182282052,IN,Wallet,7390.69,1,2024-10-19,user@gmail.com
+ORD0116,PRD004,Face Serum,Beauty,Vikram Singh,Bangalore,6345045458,IN,Wallet,4375.05,1,2024-10-28,info@hotmail.com
+ORD0159,PRD004,Face Serum,Beauty,Divya Joshi,Chennai,6303044932,IN,Wallet,1087.05,2,2024-10-24,user@gmail.com
+ORD0210,PRD004,Face Serum,Beauty,Priya Patel,Ahmedabad,8758943740,IN,UPI,5264.28,5,2024-12-17,info@hotmail.com
+ORD0106,PRD010,Smart Watch,Electronics,Meera Bhatt,Mumbai,8015670281,IN,Wallet,804.62,1,11/03/2024,info@hotmail.com
+ORD0313,PRD002,Wireless Earbuds,Electronics,Ananya Iyer,Ahmedabad,9373887626,IN,Cash,9746.5,1,2024-05-13,contact@yahoo.com
+ORD0338,PRD008,Protein Powder,Health,Gaurav Malhotra,Pune,6773963751,IN,Net Banking,4542.8,4,2024-05-08,info@hotmail.com
+ORD0250,PRD003,Yoga Mat,Sports,Aditya Saxena,Bangalore,7708343083,IN,UPI,4219.34,5,2024-02-10,info@hotmail.com
+ORD0073,PRD003,Yoga Mat,Sports,Divya Joshi,Mumbai,7766533527,IN,Net Banking,5175.93,3,2024-03-13,contact@yahoo.com
+ORD0065,PRD009,Silk Saree,Apparel,Deepa Nambiar,Hyderabad,9085321534,IN,Credit Card,8146.47,5,2024-11-05,support@outlook.com
+ORD0143,PRD007,Laptop Bag,Accessories,Rahul Verma,Mumbai,8490828954,IN,Credit Card,6780.76,5,2024-09-02,hello@company.in
+ORD0103,PRD004,Face Serum,Beauty,Deepa Nambiar,Chennai,8924240785,IN,Net Banking,-655.62,4,2024-02-06,user@gmail.com
+ORD0241,PRD001,Cotton Kurti,Apparel,Shreya Das,Hyderabad,7944189881,IN,UPI,8339.05,1,2025-02-27,user@gmail.com
+ORD0447,PRD007,Laptop Bag,Accessories,Siddharth Roy,Mumbai,7404147016,IN,Credit Card,2775.95,5,07/03/2024,info@hotmail.com
+ORD0400,PRD010,Smart Watch,Electronics,Sunita Desai,Hyderabad,922ycbbzz1,IN,Credit Card,3306.6,2,2024-12-30,test@domain.co.in
+ORD0346,PRD002,Wireless Earbuds,Electronics,Gaurav Malhotra,Hyderabad,9710756731,IN,Credit Card,7981.63,3,2024-12-03,info@hotmail.com
+ORD0293,,Laptop Bag,Accessories,Aisha Khan,Ahmedabad,6499921942,IN,Net Banking,1706.44,4,2024-11-09,test@domain.co.in
+ORD0122,,Protein Powder,Health,Neha Agarwal,Ahmedabad,740855,IN,Credit Card,3564.04,2,09/16/2024,test@domain.co.in
+ORD0493,PRD006,Stainless Steel Bottle,Kitchen,Amit Kumar,Mumbai,9446958257,IN,Wallet,6501.21,1,2024-06-01,support@outlook.com
+ORD0177,PRD005,Running Shoes,Footwear,Ananya Iyer,Ahmedabad,1229932,IN,Net Banking,3990.07,1,2024-11-01,info@hotmail.com
+ORD0058,PRD003,Yoga Mat,Sports,Gaurav Malhotra,Chennai,7083545890,IN,Net Banking,4945.61,5,2024-06-05,support@outlook.com
+ORD0341,PRD003,Yoga Mat,Sports,Sunita Desai,Mumbai,5956007,IN,Net Banking,9404.68,4,2024-12-17,user@gmail.com
+ORD0208,PRD005,Running Shoes,Footwear,Aisha Khan,Chennai,6912952296,IN,Cash,1349.12,5,2024-11-08,info@hotmail.com
+ORD0449,,Stainless Steel Bottle,Kitchen,Pooja Reddy,Pune,7840756589,IN,Credit Card,3554.38,1,2024-03-24,test@domain.co.in
+ORD0278,PRD009,Silk Saree,Apparel,Arjun Nair,Hyderabad,8048421795,IN,Credit Card,8062.74,5,2024-08-05,contact@yahoo.com
+ORD0020,,Wireless Earbuds,Electronics,Nikhil Rao,Hyderabad,6881742024,IN,UPI,5315.58,2,2024-09-18,nodot@com
+ORD0199,PRD007,Laptop Bag,Accessories,Riya Chopra,Hyderabad,6297338769,IN,Cash,4307.11,1,03/02/2024,hello@company.in
+ORD0269,PRD004,Face Serum,Beauty,Aarav Shah,Mumbai,6488641823,IN,Net Banking,9723.08,3,2025-02-05,hello@company.in
+ORD0072,PRD010,Smart Watch,Electronics,Sneha Gupta,Chennai,9808731755,IN,Debit Card,4195.69,2,2024-03-10,test@domain.co.in
+ORD0215,PRD003,Yoga Mat,Sports,Rajesh Kulkarni,Ahmedabad,6517700432,IN,Net Banking,4818.33,1,2024-11-27,test@domain.co.in
+ORD0120,PRD009,Silk Saree,Apparel,Vikram Singh,Kolkata,6797949260,IN,Wallet,3051.64,1,2024-05-24,support@outlook.com
+ORD0395,PRD002,Wireless Earbuds,Electronics,Neha Agarwal,Ahmedabad,7664448257,IN,Net Banking,3627.57,1,2024-04-07,contact@yahoo.com
+ORD0276,PRD007,Laptop Bag,Accessories,Riya Chopra,Mumbai,7018967444,IN,UPI,9162.94,3,2025-01-07,contact@yahoo.com
+ORD0114,PRD004,Face Serum,Beauty,Priya Patel,Pune,7159285246,IN,Wallet,6587.03,5,2024-08-27,user@gmail.com
+ORD0078,PRD008,Protein Powder,Health,Ritika Bose,Mumbai,8750144681,IN,Credit Card,7335.38,5,2024-04-22,contact@yahoo.com
+ORD0298,PRD002,Wireless Earbuds,Electronics,Rohit Sharma,Bangalore,6583524195,IN,Net Banking,7710.32,3,2024-11-21,contact@yahoo.com
+ORD0260,PRD001,Cotton Kurti,Apparel,Deepa Nambiar,Mumbai,6951812629,IN,Debit Card,8282.92,5,2024-06-27,hello@company.in
+ORD0351,PRD003,Yoga Mat,Sports,Vivek Pandey,Kolkata,9857497896,IN,Wallet,3928.69,2,2024-06-12,contact@yahoo.com
+ORD0062,PRD004,Face Serum,Beauty,Divya Joshi,Hyderabad,6744029682,IN,UPI,1635.67,3,2024-12-28,info@hotmail.com
+ORD0232,PRD003,Yoga Mat,Sports,Amit Kumar,Chennai,8285220501,IN,Net Banking,9615.79,3,2024-12-27,hello@company.in
+ORD0404,PRD007,Laptop Bag,Accessories,Manish Tiwari,Delhi,7110967517,IN,Debit Card,-37.78,3,2025-02-09,info@hotmail.com
+ORD0167,PRD005,Running Shoes,Footwear,Divya Joshi,Chennai,92zbx1abax,IN,Debit Card,2189.53,2,2024-05-27,user@gmail.com
+ORD0088,PRD004,Face Serum,Beauty,Rajesh Kulkarni,Delhi,6673036803,IN,UPI,2392.65,2,2025-02-10,support@outlook.com
+ORD0207,,Face Serum,Beauty,Siddharth Roy,Delhi,9604409282,IN,Debit Card,911.07,3,2024-02-04,missing@
+ORD0349,PRD002,Wireless Earbuds,Electronics,Priya Patel,Hyderabad,8306812745,IN,Wallet,7737.32,5,2024-11-06,contact@yahoo.com
+ORD0095,PRD009,Silk Saree,Apparel,Sana Mirza,Mumbai,9313130891,IN,UPI,1437.06,2,2024-03-09,contact@yahoo.com
+ORD0300,PRD003,Yoga Mat,Sports,Amit Kumar,Chennai,7205226361,IN,UPI,2976.2,5,2024-08-27,user@gmail.com
+ORD0251,PRD002,Wireless Earbuds,Electronics,Deepa Nambiar,Hyderabad,9008845270,IN,Wallet,7294.22,1,2024-12-22,user@gmail.com
+ORD0227,PRD003,Yoga Mat,Sports,Rahul Verma,Chennai,9797700,IN,Debit Card,2531.27,2,21-03-2025,contact@yahoo.com
+ORD0305,PRD005,Running Shoes,Footwear,Rajesh Kulkarni,Pune,6272037811,IN,Cash,5557.61,2,2025-02-02,test@domain.co.in
+ORD0392,PRD005,Running Shoes,Footwear,Vikram Singh,Hyderabad,6362435,IN,Net Banking,5865.49,3,2024-07-26,info@hotmail.com
+ORD0149,PRD003,Yoga Mat,Sports,Rahul Verma,Mumbai,6036181672,IN,UPI,7981.29,2,2024-08-09,hello@company.in
+ORD0470,PRD007,Laptop Bag,Accessories,Karan Mehta,Kolkata,7974032474,IN,Debit Card,7901.3,4,2024-03-13,info@hotmail.com
+ORD0212,PRD010,Smart Watch,Electronics,Sneha Gupta,Chennai,912a1abxyc,IN,Cash,8329.16,1,2024-04-09,hello@company.in
+ORD0328,PRD007,Laptop Bag,Accessories,Ananya Iyer,Ahmedabad,6624722837,IN,Wallet,9122.92,2,2024-11-07,contact@yahoo.com
+ORD0381,PRD002,Wireless Earbuds,Electronics,Arjun Nair,Chennai,8801605531,IN,UPI,5016.69,5,2024-03-05,support@outlook.com
+ORD0044,PRD005,Running Shoes,Footwear,Aarav Shah,Chennai,7671765436,IN,Credit Card,7310.77,1,05/06/2024,info@hotmail.com
+ORD0325,PRD002,Wireless Earbuds,Electronics,Sneha Gupta,Ahmedabad,6714803659,IN,Net Banking,9832.39,2,2024-08-17,test@domain.co.in
+ORD0200,PRD010,Smart Watch,Electronics,Vikram Singh,Pune,9ybax2xx11,IN,Wallet,3321.01,3,2025-03-17,user@gmail.com
+ORD0164,PRD004,Face Serum,Beauty,Neha Agarwal,Ahmedabad,7924999352,IN,Net Banking,4194.78,3,2024-07-25,contact@yahoo.com
+ORD0428,PRD003,Yoga Mat,Sports,Manish Tiwari,Kolkata,8276173718,IN,Wallet,3786.46,4,2024-05-15,test@domain.co.in
+ORD0191,PRD009,Silk Saree,Apparel,Sana Mirza,Kolkata,6894597379,IN,UPI,5145.6,5,2025-02-09,info@hotmail.com
+ORD0039,PRD005,Running Shoes,Footwear,Ananya Iyer,Kolkata,9ycb2aybyb,IN,Credit Card,230.55,1,2024-09-14,support@outlook.com
+ORD0033,PRD007,Laptop Bag,Accessories,Sana Mirza,Delhi,9764264265,IN,Credit Card,5753.13,5,2025-03-23,user@gmail.com
+ORD0297,PRD003,Yoga Mat,Sports,Sneha Gupta,Delhi,8478629548,IN,Credit Card,9580.9,3,16/03/2025,support@outlook.com
+ORD0429,PRD005,Running Shoes,Footwear,Meera Bhatt,Delhi,8998350591,IN,,-794.53,3,2024-10-23,info@hotmail.com
+ORD0488,PRD008,Protein Powder,Health,Siddharth Roy,Chennai,8202875775,IN,Debit Card,2471.64,3,2024-04-08,test@domain.co.in
+ORD0420,PRD009,Silk Saree,Apparel,Ananya Iyer,Hyderabad,9119087230,IN,UPI,2949.73,5,2024-01-14,contact@yahoo.com
+ORD0460,PRD010,Smart Watch,Electronics,Shreya Das,Chennai,7174162938,IN,Cash,4227.8,2,2024-09-28,info@hotmail.com
+ORD0367,PRD007,Laptop Bag,Accessories,Aditya Saxena,Delhi,7571544102,IN,Net Banking,278.43,5,2024-10-27,info@hotmail.com
+ORD0454,PRD009,Silk Saree,Apparel,Manish Tiwari,Hyderabad,9827733671,IN,Debit Card,762.75,2,2024-07-20,test@domain.co.in
+ORD0134,PRD004,Face Serum,Beauty,Riya Chopra,Pune,9145328792,IN,,4430.08,5,2024-11-05,info@hotmail.com
+ORD0198,PRD002,Wireless Earbuds,Electronics,Riya Chopra,Bangalore,6996841100,IN,Debit Card,3369.74,4,2024-08-16,info@hotmail.com
+ORD0329,PRD010,Smart Watch,Electronics,Sunita Desai,Chennai,7711170957,IN,Credit Card,5072.29,5,2024-02-08,contact@yahoo.com
+ORD0455,PRD009,Silk Saree,Apparel,Aisha Khan,Mumbai,8064789986,IN,,-79.19,5,2024-07-05,hello@company.in
+ORD0174,,Stainless Steel Bottle,Kitchen,Aisha Khan,Mumbai,6595802481,IN,Cash,8494.41,1,2025-03-01,info@hotmail.com
+ORD0037,PRD003,Yoga Mat,Sports,Nikhil Rao,Kolkata,6403540107,IN,UPI,2278.2,3,2024-03-24,hello@company.in
+ORD0343,PRD007,Laptop Bag,Accessories,Rajesh Kulkarni,Mumbai,8537451801,IN,Wallet,1300.71,3,2025-01-15,hello@company.in
+ORD0448,PRD003,Yoga Mat,Sports,Arjun Nair,Delhi,6068186660,IN,Net Banking,9841.46,5,2024-02-21,hello@company.in
+ORD0067,PRD003,Yoga Mat,Sports,Vikram Singh,Kolkata,7257964145,IN,UPI,868.35,3,2024-12-10,hello@company.in
+ORD0098,PRD006,Stainless Steel Bottle,Kitchen,Pooja Reddy,Chennai,6176600242,IN,UPI,6526.27,1,2024-03-26,hello@company.in
+ORD0173,PRD004,Face Serum,Beauty,Rahul Verma,Chennai,7732332466,IN,Cash,2842.0,5,2024-02-14,hello@company.in
+ORD0238,PRD010,Smart Watch,Electronics,Karan Mehta,Bangalore,9yc2zzbb1y,IN,Debit Card,9470.25,3,2025-01-03,hello@company.in
+ORD0333,PRD002,Wireless Earbuds,Electronics,Aisha Khan,Mumbai,8351452193,IN,Credit Card,1085.17,4,2024-01-28,info@hotmail.com
+ORD0359,PRD009,Silk Saree,Apparel,Ritika Bose,Chennai,9722447795,IN,Net Banking,7988.11,3,2024-09-23,contact@yahoo.com
+ORD0467,PRD006,Stainless Steel Bottle,Kitchen,Siddharth Roy,Kolkata,9053564464,IN,Cash,3679.48,2,2024-12-25,hello@company.in
+ORD0156,PRD008,Protein Powder,Health,Riya Chopra,Delhi,9762708871,IN,Net Banking,339.5,5,2024-01-21,spaces in@email.com
+ORD0317,PRD006,Stainless Steel Bottle,Kitchen,Manish Tiwari,Hyderabad,9979067473,IN,UPI,2309.51,4,2024-04-19,contact@yahoo.com
+ORD0218,PRD006,Stainless Steel Bottle,Kitchen,Vivek Pandey,Chennai,6230687781,IN,Wallet,5876.93,1,2024-03-21,contact@yahoo.com
+ORD0135,PRD003,Yoga Mat,Sports,Sunita Desai,Hyderabad,8982275038,IN,Credit Card,4197.85,4,2024-05-09,info@hotmail.com
+ORD0431,PRD006,Stainless Steel Bottle,Kitchen,Shreya Das,Kolkata,8536120834,IN,UPI,5416.97,2,2024-01-16,info@hotmail.com
+ORD0188,PRD006,Stainless Steel Bottle,Kitchen,Aarav Shah,Kolkata,7695031487,IN,Net Banking,6834.67,2,2024-10-01,support@outlook.com
+ORD0465,PRD002,Wireless Earbuds,Electronics,Shreya Das,Delhi,7872881074,IN,,942.12,3,2024-10-03,hello@company.in
+ORD0272,PRD009,Silk Saree,Apparel,Deepa Nambiar,Mumbai,7351703243,IN,Debit Card,6409.62,5,2024-11-25,support@outlook.com
+ORD0244,PRD010,Smart Watch,Electronics,Kavya Menon,Ahmedabad,7221213810,IN,Debit Card,8615.93,1,2024-01-27,hello@company.in
+ORD0009,PRD010,Smart Watch,Electronics,Vivek Pandey,Bangalore,6617025352,IN,Net Banking,9422.99,1,2024-02-19,user@gmail.com
+ORD0310,PRD010,Smart Watch,Electronics,Neha Agarwal,Mumbai,8446299141,IN,UPI,2444.23,2,2024-04-25,user@gmail.com
+ORD0383,PRD008,Protein Powder,Health,Shreya Das,Chennai,8589153557,IN,Wallet,7544.88,3,24/09/2024,support@outlook.com
+ORD0017,PRD010,Smart Watch,Electronics,Ananya Iyer,Chennai,8863805580,IN,Cash,6845.78,5,2025-03-17,hello@company.in
+ORD0426,PRD003,Yoga Mat,Sports,Rohit Sharma,Bangalore,6490331838,IN,Cash,1355.78,5,2024-03-25,user@gmail.com
+ORD0473,PRD004,Face Serum,Beauty,Divya Joshi,Kolkata,7323972179,IN,Net Banking,9149.47,1,2024-11-23,support@outlook.com
+ORD0048,PRD002,Wireless Earbuds,Electronics,Arjun Nair,Hyderabad,,IN,UPI,9316.15,2,2024-05-16,info@hotmail.com
+ORD0285,PRD007,Laptop Bag,Accessories,Rahul Verma,Pune,7175447498,IN,Cash,8860.67,3,2024-10-25,@nodomain.com
+ORD0264,PRD009,Silk Saree,Apparel,Manish Tiwari,Ahmedabad,7013822344,IN,Net Banking,1659.89,4,2024-04-12,support@outlook.com
+ORD0389,PRD006,Stainless Steel Bottle,Kitchen,Rajesh Kulkarni,Pune,9918362918,IN,Cash,4592.27,4,2024-04-08,user@gmail.com
+ORD0090,PRD005,Running Shoes,Footwear,Amit Kumar,Pune,8735711424,IN,Net Banking,266.81,2,2024-11-30,hello@company.in
+ORD0248,PRD006,Stainless Steel Bottle,Kitchen,Rohit Sharma,Kolkata,7535457189,IN,Wallet,3866.3,5,2025-03-15,info@hotmail.com
+ORD0112,PRD006,Stainless Steel Bottle,Kitchen,Ananya Iyer,Ahmedabad,6841561492,IN,Cash,6074.36,4,2024-04-02,support@outlook.com
+ORD0220,PRD008,Protein Powder,Health,Divya Joshi,Pune,8347656210,IN,Debit Card,5047.16,3,2024-08-01,support@outlook.com
+ORD0119,PRD004,Face Serum,Beauty,Meera Bhatt,Delhi,7011481600,IN,Credit Card,868.78,1,2024-03-28,hello@company.in
+ORD0216,,Stainless Steel Bottle,Kitchen,Shreya Das,Hyderabad,9193443218,IN,Credit Card,3582.9,4,2025-03-18,test@domain.co.in
+ORD0495,PRD003,Yoga Mat,Sports,Suresh Pillai,Hyderabad,,IN,Credit Card,4377.32,2,2024-11-07,test@domain.co.in
+ORD0462,PRD002,Wireless Earbuds,Electronics,Karan Mehta,Kolkata,,IN,Credit Card,3511.62,4,2024-06-28,support@outlook.com
+ORD0203,,Stainless Steel Bottle,Kitchen,Rajesh Kulkarni,Mumbai,6063057293,IN,Cash,4702.21,3,2024-08-03,info@hotmail.com
+ORD0219,,Smart Watch,Electronics,Deepa Nambiar,Pune,8770042736,IN,Credit Card,5697.67,5,2024-10-08,user@gmail.com
+ORD0005,PRD006,Stainless Steel Bottle,Kitchen,Sana Mirza,Delhi,6220408281,IN,Cash,5281.82,2,2024-11-06,support@outlook.com
+ORD0075,PRD004,Face Serum,Beauty,Ritika Bose,Delhi,,IN,Cash,8820.2,2,2025-02-03,hello@company.in
+ORD0169,PRD001,Cotton Kurti,Apparel,Sneha Gupta,Mumbai,7036950388,IN,Debit Card,5020.74,2,2024-10-30,info@hotmail.com
+ORD0339,PRD010,Smart Watch,Electronics,Karan Mehta,Hyderabad,7480564110,IN,Cash,9721.07,1,2024-09-20,support@outlook.com
+ORD0482,PRD009,Silk Saree,Apparel,Kavya Menon,Delhi,6169847802,IN,Cash,7636.25,3,2024-07-10,user@gmail.com
+ORD0047,PRD006,Stainless Steel Bottle,Kitchen,Ritika Bose,Kolkata,7404800972,IN,Net Banking,8784.59,5,2024-11-26,info@hotmail.com
+ORD0461,PRD003,Yoga Mat,Sports,Ananya Iyer,Chennai,8016558927,IN,,9043.7,2,2024-09-04,test@domain.co.in
+ORD0423,PRD008,Protein Powder,Health,Nikhil Rao,Chennai,9yzc1zba1x,IN,Wallet,3254.04,4,2024-12-19,test@domain.co.in
+ORD0014,PRD004,Face Serum,Beauty,Suresh Pillai,Chennai,8896082496,IN,UPI,8766.46,3,2024-04-21,test@domain.co.in
+ORD0224,PRD004,Face Serum,Beauty,Gaurav Malhotra,Bangalore,8964046736,IN,Net Banking,3919.03,4,20/03/2025,hello@company.in
+ORD0046,PRD007,Laptop Bag,Accessories,Aarav Shah,Pune,9abcc2zxza,IN,Debit Card,8919.52,2,2024-10-02,contact@yahoo.com
+ORD0318,PRD005,Running Shoes,Footwear,Riya Chopra,Bangalore,6586967366,IN,UPI,8480.26,2,2024-02-22,user@gmail.com
+ORD0357,PRD008,Protein Powder,Health,Deepa Nambiar,Bangalore,8079776625,IN,Debit Card,394.86,5,2025-03-17,support@outlook.com
+ORD0394,PRD009,Silk Saree,Apparel,Vikram Singh,Hyderabad,,IN,UPI,7560.87,2,2024-04-27,support@outlook.com
+ORD0162,PRD004,Face Serum,Beauty,Sunita Desai,Chennai,6007590182,IN,Wallet,2490.17,1,2024-06-21,user@gmail.com
+ORD0179,PRD009,Silk Saree,Apparel,Suresh Pillai,Bangalore,9591763671,IN,Cash,7930.11,4,31/01/2024,contact@yahoo.com
+ORD0027,PRD010,Smart Watch,Electronics,Deepa Nambiar,Chennai,6712896841,IN,Wallet,316.66,3,25/01/2024,info@hotmail.com
+ORD0474,PRD010,Smart Watch,Electronics,Sana Mirza,Ahmedabad,7718341468,IN,UPI,5355.43,1,2024-05-29,info@hotmail.com
+ORD0327,PRD007,Laptop Bag,Accessories,Suresh Pillai,Ahmedabad,9092135901,IN,,6286.05,5,2024-12-29,support@outlook.com
+ORD0195,PRD003,Yoga Mat,Sports,Meera Bhatt,Mumbai,7036044770,IN,Wallet,2984.61,3,2024-02-19,hello@company.in
+ORD0314,PRD008,Protein Powder,Health,Pooja Reddy,Kolkata,6523801122,IN,Wallet,-773.84,4,2024-01-19,user@gmail.com
+ORD0446,PRD009,Silk Saree,Apparel,Sneha Gupta,Delhi,6371344881,IN,UPI,3512.11,4,2024-05-13,user@gmail.com
+ORD0011,PRD002,Wireless Earbuds,Electronics,Riya Chopra,Pune,8515530277,IN,Credit Card,6846.58,5,2024-05-27,user@gmail.com
+ORD0137,PRD009,Silk Saree,Apparel,Priya Patel,Hyderabad,6805504955,IN,UPI,4527.21,4,2024-09-02,missing@
+ORD0197,PRD002,Wireless Earbuds,Electronics,Pooja Reddy,Ahmedabad,7530413525,IN,UPI,8474.27,2,2024-10-16,info@hotmail.com
+ORD0013,PRD002,Wireless Earbuds,Electronics,Ananya Iyer,Mumbai,6988743558,IN,Debit Card,7271.27,4,2025-01-29,support@outlook.com
+ORD0425,PRD007,Laptop Bag,Accessories,Vikram Singh,Bangalore,7178564994,IN,UPI,1941.53,3,2024-05-24,user@gmail.com
+ORD0201,PRD004,Face Serum,Beauty,Divya Joshi,Chennai,9442493364,IN,UPI,722.78,1,2024-04-19,support@outlook.com
+ORD0082,PRD007,Laptop Bag,Accessories,Deepa Nambiar,Chennai,7671424768,IN,Credit Card,5220.94,4,2025-03-06,user@gmail.com
+ORD0436,,Silk Saree,Apparel,Gaurav Malhotra,Ahmedabad,7563911716,IN,Net Banking,2384.2,1,2024-08-28,spaces in@email.com
+ORD0496,PRD006,Stainless Steel Bottle,Kitchen,Amit Kumar,Ahmedabad,6659688785,IN,Credit Card,8927.77,4,2024-11-27,support@outlook.com
+ORD0093,PRD008,Protein Powder,Health,Aisha Khan,Ahmedabad,7483678117,IN,UPI,4941.17,4,2024-04-08,user@gmail.com
+ORD0323,PRD006,Stainless Steel Bottle,Kitchen,Rahul Verma,Kolkata,7740849810,IN,UPI,3758.43,4,2024-08-28,test@domain.co.in
+ORD0181,,Wireless Earbuds,Electronics,Rahul Verma,Hyderabad,715830,IN,Wallet,9014.23,3,03/02/2024,hello@company.in
+ORD0245,PRD010,Smart Watch,Electronics,Aditya Saxena,Delhi,8579268998,IN,Wallet,4792.72,5,31/12/2024,hello@company.in
+ORD0294,PRD009,Silk Saree,Apparel,Aisha Khan,Ahmedabad,7981994712,IN,Credit Card,9913.91,5,2024-12-07,user@gmail.com
+ORD0126,PRD010,Smart Watch,Electronics,Aisha Khan,Bangalore,9410263064,IN,Net Banking,3844.8,2,2025-02-27,user@gmail.com
+ORD0109,PRD010,Smart Watch,Electronics,Aditya Saxena,Hyderabad,7788129981,IN,Credit Card,9310.18,5,2024-08-20,info@hotmail.com
+ORD0066,PRD003,Yoga Mat,Sports,Aisha Khan,Pune,5872038,IN,Net Banking,1930.11,5,2025-03-08,hello@company.in
+ORD0491,PRD005,Running Shoes,Footwear,Vikram Singh,Mumbai,7169268857,IN,Wallet,4468.18,1,2025-03-02,test@domain.co.in
+ORD0143,PRD007,Laptop Bag,Accessories,Rahul Verma,Mumbai,8490828954,IN,Credit Card,6780.76,5,2024-09-02,hello@company.in
+ORD0355,PRD009,Silk Saree,Apparel,Sunita Desai,Bangalore,3800955,IN,Net Banking,3387.39,4,2024-03-25,user@gmail.com
+ORD0057,PRD003,Yoga Mat,Sports,Vivek Pandey,Chennai,7077231836,IN,Wallet,1410.68,5,2025-02-28,user@gmail.com
+ORD0077,PRD002,Wireless Earbuds,Electronics,Aarav Shah,Hyderabad,8762637925,IN,Wallet,7401.61,1,2024-08-18,contact@yahoo.com
+ORD0094,PRD007,Laptop Bag,Accessories,Kavya Menon,Pune,9906935403,IN,UPI,7344.21,2,2025-03-25,user@gmail.com
+ORD0083,,Running Shoes,Footwear,Aisha Khan,Chennai,9016612296,IN,Cash,200.09,2,2025-01-29,missing@
+ORD0015,PRD007,Laptop Bag,Accessories,Divya Joshi,Ahmedabad,8161015639,IN,UPI,8847.72,4,2024-05-11,user@gmail.com
+ORD0052,PRD005,Running Shoes,Footwear,Amit Kumar,Ahmedabad,6204244285,IN,Debit Card,9960.96,1,2024-12-22,user@gmail.com
+ORD0165,PRD008,Protein Powder,Health,Vivek Pandey,Chennai,6944885329,IN,Debit Card,5008.0,5,2024-11-07,hello@company.in
+ORD0416,PRD009,Silk Saree,Apparel,Riya Chopra,Ahmedabad,7574389711,IN,Debit Card,5662.67,2,2024-08-18,contact@yahoo.com
+ORD0434,PRD003,Yoga Mat,Sports,Meera Bhatt,Hyderabad,9274925229,IN,Credit Card,3023.09,4,2024-07-17,contact@yahoo.com
+ORD0128,PRD008,Protein Powder,Health,Aarav Shah,Delhi,7049063365,IN,Cash,5866.86,5,2024-11-01,info@hotmail.com
+ORD0492,PRD007,Laptop Bag,Accessories,Aarav Shah,Bangalore,9830558225,IN,Cash,3717.19,5,2024-01-21,info@hotmail.com
+ORD0157,,Protein Powder,Health,Nikhil Rao,Hyderabad,6755336074,IN,Net Banking,6444.47,4,2024-12-26,support@outlook.com
+ORD0170,,Stainless Steel Bottle,Kitchen,Manish Tiwari,Kolkata,8380689182,IN,UPI,1155.33,4,2024-03-29,contact@yahoo.com
+ORD0486,PRD007,Laptop Bag,Accessories,Riya Chopra,Delhi,7128951823,IN,Wallet,8822.4,2,2025-03-12,info@hotmail.com
+ORD0263,,Wireless Earbuds,Electronics,Sunita Desai,Bangalore,120752,IN,Debit Card,6713.02,5,03/30/2024,info@hotmail.com
+ORD0368,PRD002,Wireless Earbuds,Electronics,Rohit Sharma,Ahmedabad,7682450593,IN,Wallet,4764.98,4,2025-03-20,contact@yahoo.com
+ORD0055,PRD005,Running Shoes,Footwear,Ananya Iyer,Bangalore,6449611620,IN,Wallet,3010.04,2,2024-12-27,support@outlook.com
+ORD0252,PRD010,Smart Watch,Electronics,Aditya Saxena,Pune,7513376562,IN,Credit Card,3674.68,2,2024-03-01,hello@company.in
+ORD0139,PRD006,Stainless Steel Bottle,Kitchen,Rajesh Kulkarni,Delhi,7773035807,IN,Net Banking,7722.93,4,2024-01-17,contact@yahoo.com
+ORD0124,PRD003,Yoga Mat,Sports,Karan Mehta,Chennai,6061247282,IN,UPI,5312.37,3,2024-01-10,info@hotmail.com
+ORD0360,PRD007,Laptop Bag,Accessories,Riya Chopra,Mumbai,5469671,IN,UPI,9324.05,4,2025-02-07,test@domain.co.in
+ORD0146,PRD010,Smart Watch,Electronics,Vikram Singh,Mumbai,7090963874,IN,Net Banking,1711.59,2,2025-02-21,contact@yahoo.com
+ORD0151,PRD006,Stainless Steel Bottle,Kitchen,Manish Tiwari,Bangalore,8343174371,IN,Net Banking,9033.68,1,2025-02-18,user@gmail.com
+ORD0268,PRD003,Yoga Mat,Sports,Pooja Reddy,Hyderabad,7874968861,IN,Wallet,3774.4,5,2024-04-01,contact@yahoo.com
+ORD0330,PRD010,Smart Watch,Electronics,Shreya Das,Delhi,6629615153,IN,Net Banking,5699.01,2,2024-06-25,support@outlook.com
+ORD0226,PRD007,Laptop Bag,Accessories,Suresh Pillai,Ahmedabad,6751413095,IN,,-407.37,4,2024-03-01,hello@company.in
+ORD0123,PRD010,Smart Watch,Electronics,Sneha Gupta,Ahmedabad,7104376609,IN,Wallet,5807.51,4,2024-05-22,test@domain.co.in
+ORD0152,PRD001,Cotton Kurti,Apparel,Rahul Verma,Chennai,6231556348,IN,Debit Card,1651.51,1,2024-05-05,test@domain.co.in
+ORD0370,PRD010,Smart Watch,Electronics,Vikram Singh,Hyderabad,4534453,IN,Wallet,4035.77,5,2024-08-13,contact@yahoo.com
+ORD0391,PRD006,Stainless Steel Bottle,Kitchen,Deepa Nambiar,Hyderabad,9554053265,IN,Wallet,1490.77,4,2024-05-01,contact@yahoo.com
+ORD0240,PRD009,Silk Saree,Apparel,Shreya Das,Chennai,8122095288,IN,Net Banking,9762.37,5,2024-07-30,user@gmail.com
+ORD0239,PRD002,Wireless Earbuds,Electronics,Gaurav Malhotra,Ahmedabad,7017267473,IN,Wallet,5440.92,1,2024-12-14,contact@yahoo.com
+ORD0274,PRD010,Smart Watch,Electronics,Sana Mirza,Pune,6032558656,IN,UPI,610.14,5,2025-01-05,support@outlook.com
+ORD0133,PRD008,Protein Powder,Health,Vikram Singh,Hyderabad,8201549568,IN,Net Banking,9299.62,1,2024-07-23,contact@yahoo.com
+ORD0154,PRD006,Stainless Steel Bottle,Kitchen,Deepa Nambiar,Delhi,6306747511,IN,Debit Card,-167.7,3,2025-03-28,support@outlook.com
+ORD0304,PRD009,Silk Saree,Apparel,Karan Mehta,Pune,7616564234,IN,Net Banking,9637.22,2,2024-10-24,test@domain.co.in
+ORD0231,PRD009,Silk Saree,Apparel,Ananya Iyer,Delhi,6375585215,IN,Cash,4144.42,1,2024-04-03,test@domain.co.in
+ORD0187,PRD004,Face Serum,Beauty,Deepa Nambiar,Hyderabad,8399890519,IN,Debit Card,4948.86,5,04/06/2024,contact@yahoo.com

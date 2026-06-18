@@ -6,12 +6,11 @@
     "GB": { "name": "United Kingdom", "digits": 10 },
     "AE": { "name": "UAE", "digits": 9 }
   },
-  "date_formats": [
-    "%Y-%m-%d",
-    "%d-%m-%Y",
-    "%d/%m/%Y",
-    "%Y/%m/%d",
-    "%d-%b-%Y"
-  ],
+  "date_formats": {
+    "YYYY-MM-DD": ["%Y-%m-%d", "%Y/%m/%d", "%Y.%m.%d"],
+    "DD-MM-YYYY": ["%d-%m-%Y", "%d/%m/%Y", "%d.%m.%Y", "%d-%m-%y", "%d/%m/%y", "%d.%m.%y"],
+    "MM-DD-YYYY": ["%m-%d-%Y", "%m/%d/%Y", "%m.%d.%Y", "%m-%d-%y", "%m/%d/%y", "%m.%d.%y"],
+    "ALL": ["%Y-%m-%d", "%Y/%m/%d", "%Y.%m.%d", "%d-%m-%Y", "%d/%m/%Y", "%d.%m.%Y", "%d-%b-%Y", "%d-%m-%y", "%d/%m/%y", "%m-%d-%Y", "%m/%d/%Y", "%m.%d.%Y"]
+  },
   "chunk_size": 1000
 }
