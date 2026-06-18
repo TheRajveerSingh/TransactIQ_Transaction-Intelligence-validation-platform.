@@ -5,3 +5,4 @@ python-multipart
 numpy
 groq
 python-dotenv
+fpdf2
