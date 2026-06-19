@@ -95,7 +95,7 @@ def get_config():
 @app.post("/validate")
 async def validate(
     file: UploadFile = File(...),
-    country_code: str = Form(...),
+    accepted_rules: str = Form("{}"),
     chunk_size: int = Form(1000),
     features: str = Form("{}"),
     date_format: str = Form("ALL")
@@ -108,7 +108,11 @@ async def validate(
                 "amount": True, "duplicates": True, "email": True
             }
 
-        # Parse date_format — could be a JSON array or a plain string
+        accepted_rules_dict = json.loads(accepted_rules)
+        if not accepted_rules_dict:
+            # fallback to IN if nothing selected
+            accepted_rules_dict = {"IN": {"name": "India", "digits": 10}}
+
         try:
             date_fmt_parsed = json.loads(date_format)
             if isinstance(date_fmt_parsed, list) and len(date_fmt_parsed) == 1:
@@ -119,7 +123,7 @@ async def validate(
         contents = await file.read()
         df = pd.read_csv(io.BytesIO(contents))
 
-        valid_df, invalid_df, summary = validate_csv(df, country_code, features_dict, date_fmt_parsed)
+        valid_df, invalid_df, summary = validate_csv(df, accepted_rules_dict, features_dict, date_fmt_parsed)
 
         session_id = str(uuid.uuid4())
         SESSIONS[session_id] = {
@@ -167,23 +171,18 @@ async def chat(request: dict):
     if df.empty:
         return JSONResponse({"error": "No data available for this scope."}, status_code=400)
 
-    # Handle simple count questions directly
     q_lower = question.lower()
     if any(p in q_lower for p in ["how many rows", "total rows", "row count", "how many records", "count of rows"]):
         return JSONResponse({
             "answer": f"There are {len(df)} rows in the {scope} dataset.",
-            "has_table": False,
-            "rows": [],
-            "columns": []
+            "has_table": False, "rows": [], "columns": []
         })
 
     if any(p in q_lower for p in ["how many columns", "column count", "what columns", "list columns", "show columns"]):
         cols = list(df.columns)
         return JSONResponse({
             "answer": f"There are {len(cols)} columns: {', '.join(cols)}.",
-            "has_table": False,
-            "rows": [],
-            "columns": []
+            "has_table": False, "rows": [], "columns": []
         })
 
     result = query_dataframe(df, question, scope)
@@ -191,9 +190,7 @@ async def chat(request: dict):
     if not result["success"]:
         return JSONResponse({
             "answer": f"I couldn't process that query. Try rephrasing it.\n\nError: {result['error']}",
-            "has_table": False,
-            "rows": [],
-            "columns": []
+            "has_table": False, "rows": [], "columns": []
         })
 
     count = result["count"]
@@ -218,11 +215,8 @@ def download_valid(session_id: str):
     stream = io.StringIO()
     df.to_csv(stream, index=False)
     stream.seek(0)
-    return StreamingResponse(
-        iter([stream.getvalue()]),
-        media_type="text/csv",
-        headers={"Content-Disposition": "attachment; filename=valid_rows.csv"}
-    )
+    return StreamingResponse(iter([stream.getvalue()]), media_type="text/csv",
+        headers={"Content-Disposition": "attachment; filename=valid_rows.csv"})
 
 
 @app.get("/download/invalid")
@@ -233,11 +227,8 @@ def download_invalid(session_id: str):
     stream = io.StringIO()
     df.to_csv(stream, index=False)
     stream.seek(0)
-    return StreamingResponse(
-        iter([stream.getvalue()]),
-        media_type="text/csv",
-        headers={"Content-Disposition": "attachment; filename=invalid_rows.csv"}
-    )
+    return StreamingResponse(iter([stream.getvalue()]), media_type="text/csv",
+        headers={"Content-Disposition": "attachment; filename=invalid_rows.csv"})
 
 
 @app.get("/download/chunks")
@@ -251,11 +242,8 @@ def download_chunks(session_id: str, chunk_size: int = 1000):
         for i, chunk in enumerate(chunks):
             zf.writestr(f"chunk_{i+1}.csv", chunk.to_csv(index=False))
     zip_buffer.seek(0)
-    return StreamingResponse(
-        zip_buffer,
-        media_type="application/zip",
-        headers={"Content-Disposition": "attachment; filename=chunks.zip"}
-    )
+    return StreamingResponse(zip_buffer, media_type="application/zip",
+        headers={"Content-Disposition": "attachment; filename=chunks.zip"})
 
 
 @app.post("/download/chat-csv")
@@ -266,37 +254,27 @@ async def download_chat_csv(request: dict):
     stream = io.StringIO()
     df.to_csv(stream, index=False)
     stream.seek(0)
-    return StreamingResponse(
-        iter([stream.getvalue()]),
-        media_type="text/csv",
-        headers={"Content-Disposition": "attachment; filename=query_results.csv"}
-    )
+    return StreamingResponse(iter([stream.getvalue()]), media_type="text/csv",
+        headers={"Content-Disposition": "attachment; filename=query_results.csv"})
 
 
 @app.post("/download/chat-pdf")
 async def download_chat_pdf(request: dict):
     rows = request.get("rows", [])
     columns = request.get("columns", [])
-
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font("Helvetica", "B", 8)
-
     col_width = 190 / max(len(columns), 1)
     for col in columns:
         pdf.cell(col_width, 7, str(col)[:15], border=1)
     pdf.ln()
-
     pdf.set_font("Helvetica", "", 7)
     for row in rows[:200]:
         for col in columns:
             val = str(row.get(col, ""))[:15]
             pdf.cell(col_width, 6, val, border=1)
         pdf.ln()
-
     pdf_bytes = pdf.output()
-    return StreamingResponse(
-        iter([bytes(pdf_bytes)]),
-        media_type="application/pdf",
-        headers={"Content-Disposition": "attachment; filename=query_results.pdf"}
-    )
+    return StreamingResponse(iter([bytes(pdf_bytes)]), media_type="application/pdf",
+        headers={"Content-Disposition": "attachment; filename=query_results.pdf"})

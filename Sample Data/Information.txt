@@ -1,0 +1,5 @@
+For the file 'transactions_multi_country.csv'
+IN — 201 rows, 10-digit phones
+SG — 152 rows, 8-digit phones
+US — 101 rows, 10-digit phones
+AE — 51 rows, 9-digit phones
