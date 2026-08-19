@@ -6,6 +6,10 @@ A web-based transaction data validation and processing platform built for implem
 
 TransactIQ accepts transaction CSV files containing order-level, product-level, and payment information, performs comprehensive multi-layer validation, and returns cleaned output files ready for system ingestion. Each validation run also generates AI-powered fix recommendations for every error type detected, and an interactive Data Assistant lets teams query their dataset in natural language after validation.
 
+## Demo
+
+Watch the TransactIQ demo: https://drive.google.com/file/d/1R4Gmr8rHP5eZjqMkjTgTWlX9T_oLCBSx/view?usp=sharing
+
 ## Features
 
 - **Multi-country phone validation** — each row's `country_code` column is matched against a user-configured list of accepted countries, with per-country digit rules. Adding IN + SG flags US and AE rows even if their digit counts happen to match.
